@@ -13,22 +13,19 @@ https://www.bilibili.com/video/BV1Zy4y1K7SH/?p=6&spm_id_from=pageDriver&vd_sourc
 
 
 ```
-温馨提示: 此readme.md文件,是通过禹神课件PDF文件通过WPS转成word,再由word通过pandoc工具转成markdown格式,故存在错误，请见谅。具体内容可看课件文件夹里面的内容。
+温馨提示: 此readme.md文件,是禹神所讲笔记中PDF文件通过WPS转成word文件,再由word通过pandoc工具转成markdown格式文件,故存在错误，请见谅。具体内容可看课件文件夹里面的内容。
 ```
-
 
 > **一、** **前序知识**
 >
 > **1.** **认识两位先驱**
 
-![](./images/media/image1.jpeg){width="6.17995406824147in"
-height="1.041994750656168e-2in"}
+<img src="media/image1.jpeg" style="width:6.17995in" />
 
-![](./images/media/image2.jpeg){width="6.0757392825896765in"
-height="4.022703412073491in"}
+<img src="media/image2.jpeg" style="width:6.07574in;height:4.0227in" />
 
-> ![](./images/media/image3.jpeg){width="6.17995406824147in"
-> height="1.0421041119860017e-2in"}**2.** **计算机基础知识**
+> <img src="media/image3.jpeg" style="width:6.17995in" />**2.**
+> **计算机基础知识**
 >
 > 1\.
 > **计算机**俗称电脑，是现代一种用于高速计算的电子计算机器，可以进行数值计算、逻辑计算，还
@@ -48,45 +45,69 @@ height="4.022703412073491in"}
 >
 > 4\. 整体图示：
 
-![](./images/media/image4.jpeg){width="5.7943580489938755in"
-height="2.8763363954505685in"}
+<img src="media/image4.jpeg" style="width:5.79436in;height:2.87634in" />
 
 > **3.** **C/S架构与B/S架构**
 
-+-----------------------------------------------------------------------------------------------------------------+
-| > 1\. 上面提到的应用软件，又分为两大类：                                                                        |
-| >                                                                                                               |
-| > 。 **C/S架构**，特点：需要安装、偶尔更新、不跨平台、开发更具针对性。 。                                       |
-| > **B/S架构**，特点：无需安装、无需更新、可跨平台、开发更具通用性。                                             |
-+-------------------------+---------------------------------------------------------------------------------------+
-|                         | > 名词解释： C =\> client（客户端）、 B =\> browser（浏览器）、 S =\>                 |
-|                         | > server（服务器）。                                                                  |
-|                         | >                                                                                     |
-|                         | > 服务器 ：为软件提供数据的设备（在背后默默的付出）。                                 |
-+-------------------------+---------------------------------------------------------------------------------------+
-| > 2\. **前端工程师，主要负责编写** **B/S架构中的网页（呈现界面、实现交互）** 。                                 |
-+-------------------------+---------------------------------------------------------------------------------------+
-|                         | > 备注：大前端时代，我们可以用前端的技术栈，做出一个C/S架构的应用、甚至搭建一个服     |
-|                         | > 务器囤。                                                                            |
-+-------------------------+-------------------------------------------+-------------------------------------------+
-| > **4.** **浏览器相关知识**                                         |                                           |
-+---------------------------------------------------------------------+-------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 58%" />
+<col style="width: 35%" />
+</colgroup>
+<tbody>
+<tr>
+<td colspan="3"><blockquote>
+<p>1. 上面提到的应用软件，又分为两大类：</p>
+<p>。
+<strong>C/S架构</strong>，特点：需要安装、偶尔更新、不跨平台、开发更具针对性。
+。
+<strong>B/S架构</strong>，特点：无需安装、无需更新、可跨平台、开发更具通用性。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2"><blockquote>
+<p>名词解释： C =&gt; client（客户端）、 B =&gt; browser（浏览器）、 S
+=&gt; server（服务器）。</p>
+<p>服务器 ：为软件提供数据的设备（在背后默默的付出）。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td colspan="3"><blockquote>
+<p>2. <strong>前端工程师，主要负责编写</strong>
+<strong>B/S架构中的网页（呈现界面、实现交互）</strong> 。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2"><blockquote>
+<p>备注：大前端时代，我们可以用前端的技术栈，做出一个C/S架构的应用、甚至搭建一个服
+务器囤。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td colspan="2"><blockquote>
+<p><strong>4.</strong> <strong>浏览器相关知识</strong></p>
+</blockquote></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 > 浏览器是网页运行的平台，常见的浏览器有： 谷歌(Chrome) 、 Safari 、 IE
 > 、 火狐(Firefox) 、 欧 朋(Opera) 等，以上这些是常用的五大浏览器。
 >
 > **1.各大浏览器市场份额：**
 
-![](./images/media/image5.jpeg){width="6.179952974628171in"
-height="3.3036176727909012in"}
+<img src="media/image5.jpeg" style="width:6.17995in;height:3.30362in" />
 
 > **2.常见浏览器的内核：**
 
-![](./images/media/image6.jpeg){width="6.17995406824147in"
-height="3.7830074365704287in"}
+<img src="media/image6.jpeg" style="width:6.17995in;height:3.78301in" />
 
-> ![](./images/media/image7.jpeg){width="6.17995406824147in"
-> height="1.041994750656168e-2in"}**5.** **网页相关概念**
+> <img src="media/image7.jpeg" style="width:6.17995in" />**5.**
+> **网页相关概念**
 >
 > 1\. 网址：我们在浏览器中输入的地址。
 >
@@ -96,82 +117,139 @@ height="3.7830074365704287in"}
 >
 > 4\. 网页标准：
 
-![](./images/media/image8.png){width="5.794359142607174in"
-height="2.1780938320209975in"}
+<img src="media/image8.png" style="width:5.79436in;height:2.17809in" />
 
 > **二、** **HTML** **简介**
 >
 > **1.** **什么是** **HTML？**
 
-+-----------------------------------------------------------------------------------------------+
-| 全称： HyperText Markup Language（超文本标记语言）。                                          |
-+-----------------------------------------------------------------------------------------------+
-| > 超文本：暂且简单理解为 "超级的文本" ，和普通文本比，内容更丰富。                            |
-| >                                                                                             |
-| > 标 记：文本要变成超文本，就需要用到各种标记符号。                                           |
-| >                                                                                             |
-| > 语 言：每一个标记的写法、读音、使用规则，组成了一个标记语言。                               |
-+------------------------------------------------+----------------------------------------------+
-| **2.** **相关国际组织（了解）**                |                                              |
-+------------------------------------------------+----------------------------------------------+
-| **1.** **IETF**                                                                               |
-+-----------------------------------------------------------------------------------------------+
-| > 全称： Internet Engineering Task Force（国际互联网工程任务组），成立于1985年底，是一个权威  |
-| > 的互联网技术标准化组织，主要负责互联网相关技术规范的研发和制定，当前绝大多数国际互联网      |
-| > 技术标准均出自IETF。官网： [**https://www.ietf.org**](https://www.ietf.org/)                |
-+-----------------------------------------------------------------------------------------------+
-| **2.** **W3C**                                                                                |
-+-----------------------------------------------------------------------------------------------+
-| > 全称：World Wide Web Consortium （万维网联盟），创建于1994年，是目前Web技术领域，最具影     |
-| > 响力的技术标准机构。共计发布了200多项技术标准和实施指南，对互联网技术的发展和应用起到       |
-| > 了基础性和根本性的支撑作用，官网： [**https://www.w3.org**](https://www.w3.org/)            |
-+-----------------------------------------------------------------------------------------------+
-| **3.** **WHATWF**                                                                             |
-+-----------------------------------------------------------------------------------------------+
-| > 全称：Web Hypertext Application Technology Working Group （网页超文本应用技术工作小组）成立 |
-| > 于2004年，是一个以推动网络HTML5 标准为目的而成立的组织。由Opera、 Mozilla基金会、苹果，     |
-| > 等这些浏览器厂商组成。官网： [**https://whatwg.org/**](https://whatwg.org/)                 |
-+------------------------------------------------+----------------------------------------------+
-| **3.** **HTML** **发展历史（了解）**           |                                              |
-+------------------------------------------------+----------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 69%" />
+<col style="width: 30%" />
+</colgroup>
+<tbody>
+<tr>
+<td colspan="2">全称： HyperText Markup
+Language（超文本标记语言）。</td>
+</tr>
+<tr>
+<td colspan="2"><blockquote>
+<p>超文本：暂且简单理解为 “超级的文本” ，和普通文本比，内容更丰富。</p>
+<p>标 记：文本要变成超文本，就需要用到各种标记符号。</p>
+<p>语 言：每一个标记的写法、读音、使用规则，组成了一个标记语言。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><strong>2.</strong> <strong>相关国际组织（了解）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="2"><strong>1.</strong> <strong>IETF</strong></td>
+</tr>
+<tr>
+<td colspan="2"><blockquote>
+<p>全称： Internet Engineering Task
+Force（国际互联网工程任务组），成立于1985年底，是一个权威
+的互联网技术标准化组织，主要负责互联网相关技术规范的研发和制定，当前绝大多数国际互联网
+技术标准均出自IETF。官网： <a
+href="https://www.ietf.org/"><strong>https://www.ietf.org</strong></a></p>
+</blockquote></td>
+</tr>
+<tr>
+<td colspan="2"><strong>2.</strong> <strong>W3C</strong></td>
+</tr>
+<tr>
+<td colspan="2" style="text-align: left;"><blockquote>
+<p>全称：World Wide Web Consortium
+（万维网联盟），创建于1994年，是目前Web技术领域，最具影
+响力的技术标准机构。共计发布了200多项技术标准和实施指南，对互联网技术的发展和应用起到
+了基础性和根本性的支撑作用，官网： <a
+href="https://www.w3.org/"><strong>https://www.w3.org</strong></a></p>
+</blockquote></td>
+</tr>
+<tr>
+<td colspan="2"><strong>3.</strong> <strong>WHATWF</strong></td>
+</tr>
+<tr>
+<td colspan="2" style="text-align: left;"><blockquote>
+<p>全称：Web Hypertext Application Technology Working Group
+（网页超文本应用技术工作小组）成立 于2004年，是一个以推动网络HTML5
+标准为目的而成立的组织。由Opera、 Mozilla基金会、苹果，
+等这些浏览器厂商组成。官网： <a
+href="https://whatwg.org/"><strong>https://whatwg.org/</strong></a></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><strong>3.</strong> <strong>HTML</strong>
+<strong>发展历史（了解）</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 > 从 HTML 1.0 开始发展， 期间经历了很多版本，目前HTML的最新标准是： HMTL
 > 5，具体发展史如图（了 解即可）。
 
-![](./images/media/image9.jpeg){width="6.17995406824147in"
-height="2.990972222222222in"}
+<img src="media/image9.jpeg" style="width:6.17995in;height:2.99097in" />
 
 > **三、** **准备工作**
 >
 > **1.** **常用电脑设置**
 
-+-------------------------------------------------------------------------------------+
-| > 1\. 查看文件夹内容的几种布局。                                                    |
-| >                                                                                   |
-| > 2\. 展示文件扩展名（文件后缀）。                                                  |
-| >                                                                                   |
-| > 3\. 使用指定程序打开文件。                                                        |
-| >                                                                                   |
-| > 4\. 配置文件的默认打开方式。                                                      |
-+-----------------------------------------------+-------------------------------------+
-| > **2.** **安装Chrome浏览器**                 |                                     |
-+-----------------------------------------------+-------------------------------------+
-| > 1\. 下载地址： [**https://www.google.cn/chrome**](https://www.google.cn/chrome)。 |
-| >                                                                                   |
-| > 2\. 若上述地址打不开，或无法安装，请使用资料中的离线安装包。                      |
-| >                                                                                   |
-| > 3\. 详细步骤请参考视频。                                                          |
-+-----------------------------------------------+-------------------------------------+
-| > **四、** **HTML** **入门**                  |                                     |
-| >                                             |                                     |
-| > **1.** **HTML** **初体验**                  |                                     |
-+-----------------------------------------------+-------------------------------------+
+<table>
+<colgroup>
+<col style="width: 67%" />
+<col style="width: 32%" />
+</colgroup>
+<tbody>
+<tr>
+<td colspan="2"><blockquote>
+<p>1. 查看文件夹内容的几种布局。</p>
+<p>2. 展示文件扩展名（文件后缀）。</p>
+<p>3. 使用指定程序打开文件。</p>
+<p>4. 配置文件的默认打开方式。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p><strong>2.</strong> <strong>安装Chrome浏览器</strong></p>
+</blockquote></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="2"><blockquote>
+<p>1. 下载地址： <a
+href="https://www.google.cn/chrome"><strong>https://www.google.cn/chrome</strong></a>。</p>
+<p>2. 若上述地址打不开，或无法安装，请使用资料中的离线安装包。</p>
+<p>3. 详细步骤请参考视频。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p><strong>四、</strong> <strong>HTML</strong> <strong>入门</strong></p>
+<p><strong>1.</strong> <strong>HTML</strong> <strong>初体验</strong></p>
+</blockquote></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-> 1\. 第一步：鼠标右键 =\> 新建 =\> 文本文档 =\> 输入以下内容，并保存。
+> 1\. 第一步：鼠标右键 =&gt; 新建 =&gt; 文本文档 =&gt;
+> 输入以下内容，并保存。
 
-+-----------------------------------------------------------------------+
-| > \<marquee\>尚硅谷，让天下没有难学的技术！\< /marquee\>              |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;marquee&gt;尚硅谷，让天下没有难学的技术！&lt; /marquee&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 2\. 第二步：修改后缀为 .html ，然后双击打开即可。
 >
@@ -179,8 +257,8 @@ height="2.990972222222222in"}
 >
 > 4\. 借助浏览器看网页的 **源代码**，具体操作：
 >
-> ![](./images/media/image12.jpeg){width="6.17995406824147in"
-> height="1.0423228346456693e-2in"}**2.** **HTML** **标签**
+> <img src="media/image12.jpeg" style="width:6.17995in" />**2.**
+> **HTML** **标签**
 >
 > 1\. **标签** 又称 **元素**，是HTML的基本组成单位。
 >
@@ -188,34 +266,48 @@ height="2.990972222222222in"}
 >
 > 3\. 标签名不区分大小写，但推荐小写，因为小写更规范。 4. 双标签：
 
-![](./images/media/image13.jpeg){width="4.168525809273841e-2in"
-height="1.9800885826771653in"}
+<img src="media/image13.jpeg" style="height:1.98009in" />
 
-![](./images/media/image14.jpeg){width="3.4495188101487315in"
-height="0.9900426509186352in"}
+<img src="media/image14.jpeg"
+style="width:3.44952in;height:0.99004in" />
 
 > 示例代码：
 
-+-----------------------------------------------------------------------+
-| > \<marquee\>尚硅谷，让天下没有难学的技术！\< /marquee\>              |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;marquee&gt;尚硅谷，让天下没有难学的技术！&lt; /marquee&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 5\. 单标签：
 >
 > 6\. 标签之间的关系：并列关系、嵌套关系，可以使用 tab 键进行缩进：
 
-+-----------------------------------------------------------------------+
-| > \<marquee\>                                                         |
-| >                                                                     |
-| > 尚硅谷，让天下没有难学的技术！                                      |
-| >                                                                     |
-| > \<input\> \< /marquee\> \<input\>                                   |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;marquee&gt;</p>
+<p>尚硅谷，让天下没有难学的技术！</p>
+<p>&lt;input&gt; &lt; /marquee&gt; &lt;input&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > **3.** **HTML** **标签属性**
 
-![](./images/media/image16.jpeg){width="6.17995406824147in"
-height="1.0423228346456693e-2in"}
+<img src="media/image16.jpeg" style="width:6.17995in" />
 
 > 1\. 用于给标签提供 **附加信息**。
 >
@@ -223,12 +315,20 @@ height="1.0423228346456693e-2in"}
 >
 > 3\. 有些特殊的属性，没有属性名，只有属性值，例如：
 
-+-----------------------------------------------------------------------+
-| > \<input disabled\>                                                  |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;input disabled&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-> ![](./images/media/image18.jpeg){width="4.168525809273841e-2in"
-> height="2.2406277340332457in"}4. 注意点：
+> <img src="media/image18.jpeg" style="height:2.24063in" />4. 注意点：
 >
 > 1\.
 > 不同的标签，有不同的属性；也有一些通用属性（在任何标签内都能写，后面会详细
@@ -242,30 +342,37 @@ height="1.0423228346456693e-2in"}
 >
 > 5\. 标签中不要出现同名属性，否则后写的会失效，例如：
 
-+-----------------------------------------------------------------------+
-| > \<input type= \"text \" type= \"password \"\>                       |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;input type= "text " type= "password "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-> ![](./images/media/image19.jpeg){width="6.17995406824147in"
-> height="1.0423228346456693e-2in"}**4.** **HTML** **基本结构**
+> <img src="media/image19.jpeg" style="width:6.17995in" />**4.**
+> **HTML** **基本结构**
 >
-> 1\. 在网页中，如何查看某段结构的具体代码？ ------
-> 点击鼠标右键，选择"检查"。
+> 1\. 在网页中，如何查看某段结构的具体代码？ ——
+> 点击鼠标右键，选择“检查”。
 >
 > 2\. 【检查】 和 【查看网页源代码】的区别：
 
-![](./images/media/image20.jpeg){width="4.168525809273841e-2in"
-height="0.9692038495188101in"}
+<img src="media/image20.jpeg" style="height:0.9692in" />
 
 > 【查看网页源代码】看到的是：程序员编写的源代码。
 >
-> 【检查】看到的是：经过浏览器 "处理" 后的源代码。
+> 【检查】看到的是：经过浏览器 “处理” 后的源代码。
 > 备注：日常开发中，【检查】用的最多。
 >
 > 3\. 网页的 **基本结构** 如下：
 
-![](./images/media/image21.jpeg){width="4.168525809273841e-2in"
-height="1.083834208223972in"}
+<img src="media/image21.jpeg" style="height:1.08383in" />
 
 > 1\. 想要呈现在网页中的内容写在 body 标签中。
 >
@@ -273,30 +380,33 @@ height="1.083834208223972in"}
 >
 > 3\. head 标签中的 title 标签可以指定网页的标题。
 >
-> ![](./images/media/image22.png){width="4.168525809273841e-2in"
-> height="6.034041994750656in"}4. 图示：
+> <img src="media/image22.png" style="height:6.03404in" />4. 图示：
 
-![](./images/media/image23.jpeg){width="4.220710848643919in"
-height="3.5537335958005247in"}
+<img src="media/image23.jpeg"
+style="width:4.22071in;height:3.55373in" />
 
 > 5\. 代码：
 
-+-----------------------------------------------------------------------+
-| > \<html\>                                                            |
-| >                                                                     |
-| > \<head\>                                                            |
-| >                                                                     |
-| > \<title\>网页标题\</title\> \< /head\>                              |
-| >                                                                     |
-| > \<body\>                                                            |
-| >                                                                     |
-| > . . . . . .                                                         |
-| >                                                                     |
-| > \< /body\> \< /html\>                                               |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;html&gt;</p>
+<p>&lt;head&gt;</p>
+<p>&lt;title&gt;网页标题&lt;/title&gt; &lt; /head&gt;</p>
+<p>&lt;body&gt;</p>
+<p>. . . . . .</p>
+<p>&lt; /body&gt; &lt; /html&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-> ![](./images/media/image24.jpeg){width="6.17995406824147in"
-> height="1.0423228346456693e-2in"}**5.** **安装** **VSCode**
+> <img src="media/image24.jpeg" style="width:6.17995in" />**5.**
+> **安装** **VSCode**
 >
 > 1\. 安装中文语言包。
 >
@@ -310,9 +420,8 @@ height="3.5537335958005247in"}
 >
 > 备注：详细安装步骤请参考视频。
 >
-> ![](./images/media/image25.png){width="6.17995406824147in"
-> height="1.0423228346456693e-2in"}**6.** **安装** **Live**
-> **Server插件**
+> <img src="media/image25.png" style="width:6.17995in" />**6.** **安装**
+> **Live** **Server插件**
 >
 > 1\. 可以更加方便的打开网页。
 >
@@ -320,15 +429,14 @@ height="3.5537335958005247in"}
 >
 > 3\. 代码出现改动后，可以自动刷新。
 >
-> ![](./images/media/image26.jpeg){width="4.168525809273841e-2in"
-> height="0.4898206474190726in"}4. 根据自己的情况，去配置一下 VSCode
-> 的自动保存。
+> <img src="media/image26.jpeg" style="height:0.48982in" />4.
+> 根据自己的情况，去配置一下 VSCode 的自动保存。
 >
 > 注意1：务必使用VSCode打开的是文件夹，否则 Live
 > Server插件无法正常工作！
 >
-> ![](./images/media/image28.png){width="6.17995406824147in"
-> height="1.0423228346456693e-2in"}**7.** **HTML** **注释**
+> <img src="media/image28.png" style="width:6.17995in" />**7.** **HTML**
+> **注释**
 >
 > 1\.
 > 特点：注释的内容会被浏览器所忽略，不会呈现到页面中，但源代码中依然可见。
@@ -337,30 +445,42 @@ height="3.5537335958005247in"}
 >
 > 3\. 写法：
 
-+-----------------------------------------------------------------------+
-| > \< !\-- 下面的文字只能滚动一次 \--\>                                |
-| >                                                                     |
-| > \<marquee loop= \"1 \"\>尚硅谷\</marquee\>                          |
-| >                                                                     |
-| > \< !\-- 下面的文字可以无限滚动 \--\>                                |
-| >                                                                     |
-| > \<marquee\>尚硅谷123\< /marquee\>                                   |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt; !-- 下面的文字只能滚动一次 --&gt;</p>
+<p>&lt;marquee loop= "1 "&gt;尚硅谷&lt;/marquee&gt;</p>
+<p>&lt; !-- 下面的文字可以无限滚动 --&gt;</p>
+<p>&lt;marquee&gt;尚硅谷123&lt; /marquee&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 4\. 注释不可以嵌套，以下这么写是错的（反例）。
 
-+-----------------------------------------------------------------------+
-| > \< !\--                                                             |
-| >                                                                     |
-| > 我是一段注释                                                        |
-| >                                                                     |
-| > \< !\-- 我是一段注释 \--\>                                          |
-| >                                                                     |
-| > \--\>                                                               |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt; !--</p>
+<p>我是一段注释</p>
+<p>&lt; !-- 我是一段注释 --&gt;</p>
+<p>--&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-> ![](./images/media/image29.png){width="6.17995406824147in"
-> height="1.0423228346456693e-2in"}**8.** **HTML** **文档声明**
+> <img src="media/image29.png" style="width:6.17995in" />**8.** **HTML**
+> **文档声明**
 >
 > 1\. 作用：告诉浏览器当前网页的版本。
 >
@@ -374,25 +494,32 @@ height="3.5537335958005247in"}
 >
 > 。 **新写法：** 一切都变得简单了！ W3C 推荐使用 HTML 5 的写法。
 
-+------------+------------------------------------------------------------+
-| > \<       | > html\> HTML\>                                            |
-| > !DOCTYPE | >                                                          |
-| >          | > html\>                                                   |
-| > 或       |                                                            |
-| >          |                                                            |
-| > \<       |                                                            |
-| > !DOCTYPE |                                                            |
-| >          |                                                            |
-| > 或       |                                                            |
-| >          |                                                            |
-| > \<       |                                                            |
-| > !doctype |                                                            |
-+------------+------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 85%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt; !DOCTYPE</p>
+<p>或</p>
+<p>&lt; !DOCTYPE</p>
+<p>或</p>
+<p>&lt; !doctype</p>
+</blockquote></td>
+<td><blockquote>
+<p>html&gt; HTML&gt;</p>
+<p>html&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 3\. 注意：文档声明，必须在网页的第一行，且在 html 标签的外侧。
 >
-> ![](./images/media/image30.png){width="6.17995406824147in"
-> height="1.0416666666666666e-2in"}**9.** **HTML** **字符编码**
+> <img src="media/image30.png" style="width:6.17995in" />**9.** **HTML**
+> **字符编码**
 >
 > 1\. 计算机对数据的操作：
 >
@@ -400,12 +527,11 @@ height="3.5537335958005247in"}
 >
 > 。 读取时，对数据进行： **解码**。
 >
-> 2\. 编码、解码，会遵循一定的规范 ------ **字符集**。
+> 2\. 编码、解码，会遵循一定的规范 —— **字符集**。
 >
 > 3\. 字符集有很多中，常见的有（了解）：
 
-![](./images/media/image31.jpeg){width="4.168525809273841e-2in"
-height="1.302691382327209in"}
+<img src="media/image31.jpeg" style="height:1.30269in" />
 
 > 1\. ASCII ：大写字母、小写字母、数字、 一些符号，共计128个。
 >
@@ -415,55 +541,61 @@ height="1.302691382327209in"}
 >
 > 4\. GBK ：收录了的汉字和符号达到 20000+ ，支持繁体中文。
 >
-> 5\. UTF-8 ：包含世界上所有语言的：所有文字与符号。 ------ 很常用。
+> 5\. UTF-8 ：包含世界上所有语言的：所有文字与符号。 —— 很常用。
 >
-> ![](./images/media/image32.jpeg){width="4.168525809273841e-2in"
-> height="0.6982349081364829in"}4. 使用原则是怎样的？
+> <img src="media/image32.jpeg" style="height:0.69823in" />4.
+> 使用原则是怎样的？
 >
 > 原则1：存储时，务必采用合适的字符编码 。
 >
 > 否则：无法存储，数据会丢失！
 
-![](./images/media/image33.jpeg){width="4.168525809273841e-2in"
-height="0.6878182414698163in"}
+<img src="media/image33.jpeg" style="height:0.68782in" />
 
 > 原则2：存储时采用哪种方式编码 ，读取时就采用哪种方式解码。
 >
 > 否则：数据错乱（乱码）！
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-| > 例如下面文字中，包含有：中文、英文、泰文、缅甸文                                                                                       |
-+-------------------------------------+----------------------------------------------------------------------------------------------------+
-|                                     | > 我爱你                                                                                           |
-|                                     | >                                                                                                  |
-|                                     | > I love you !                                                                                     |
-|                                     | >                                                                                                  |
-|                                     | > ั ั                                                                                                |
-|                                     | >                                                                                                  |
-|                                     | > ฉนรกเธอนะ                                                                                        |
-|                                     | >                                                                                                  |
-|                                     | > ![](./images/media/image34.png){width="5.0207786526684166e-2in"                                  |
-|                                     | > height="5.0669291338582674e-2in"} ![](./images/media/image35.png){width="6.022747156605424e-2in" |
-|                                     | > height="4.997812773403325e-2in"} ![](./images/media/image36.png){width="5.0207786526684166e-2in" |
-|                                     | > height="5.0669291338582674e-2in"}                                                                |
-|                                     | > ![](./images/media/image37.png){width="5.0207786526684166e-2in"                                  |
-|                                     | > height="5.0669291338582674e-2in"}                                                                |
-|                                     | >                                                                                                  |
-|                                     | > ![](./images/media/image38.png){width="0.11604440069991251in"                                    |
-|                                     | > height="6.1148293963254594e-2in"}d⃞![](./images/media/image39.png){width="6.573490813648294e-2in" |
-|                                     | > height="6.068788276465442e-2in"}![](./images/media/image40.png){width="0.11604440069991251in"    |
-|                                     | > height="0.11388998250218722in"} ![](./images/media/image41.png){width="6.40080927384077e-2in"    |
-|                                     | > height="6.1148293963254594e-2in"}![](./images/media/image42.png){width="0.1216852580927384in"    |
-|                                     | > height="0.11665463692038495in"}![](./images/media/image43.png){width="0.11604440069991251in"     |
-|                                     | > height="6.1148293963254594e-2in"}![](./images/media/image44.png){width="0.11592957130358705in"   |
-|                                     | > height="6.1148293963254594e-2in"}Ⅱ                                                               |
-+-------------------------------------+----------------------------------------------------------------------------------------------------+
-| > 若使用 ISO8859-1 编码存储，在存入的那一刻，就出问题了，因为 ISO8859-1 仅支持英 文！                                                    |
-| >                                                                                                                                        |
-| > 为保证所有的输入，都能正常存储和读取，现在几乎全都采用： UFT-8 编码。                                                                  |
-| >                                                                                                                                        |
-| > 所以我们编写 html 文件时，也都统一用 UFT-8 编码。                                                                                      |
-+------------------------------------------------------------------------------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 96%" />
+</colgroup>
+<tbody>
+<tr>
+<td colspan="2"><blockquote>
+<p>例如下面文字中，包含有：中文、英文、泰文、缅甸文</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>我爱你</p>
+<p>I love you !</p>
+<p>ั ั</p>
+<p>ฉนรกเธอนะ</p>
+<p><img src="media/image34.png" /> <img src="media/image35.png" /> <img
+src="media/image36.png" /> <img src="media/image37.png" /></p>
+<p><img src="media/image38.png" style="width:0.11604in" />d⃞<img
+src="media/image39.png" /><img src="media/image40.png"
+style="width:0.11604in;height:0.11389in" /> <img
+src="media/image41.png" /><img src="media/image42.png"
+style="width:0.12169in;height:0.11665in" /><img src="media/image43.png"
+style="width:0.11604in" /><img src="media/image44.png"
+style="width:0.11593in" />Ⅱ</p>
+</blockquote></td>
+</tr>
+<tr>
+<td colspan="2"><blockquote>
+<p>若使用 ISO8859-1 编码存储，在存入的那一刻，就出问题了，因为 ISO8859-1
+仅支持英 文！</p>
+<p>为保证所有的输入，都能正常存储和读取，现在几乎全都采用： UFT-8
+编码。</p>
+<p>所以我们编写 html 文件时，也都统一用 UFT-8 编码。</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 5\. 总结：
 >
@@ -472,58 +604,67 @@ height="0.6878182414698163in"}
 > 。 为了让浏览器在渲染 html 文件时，不犯错误，可以通过 meta 标签配合
 > charset 属性指 定字符编码。
 
-+-----------------------------------------------------------------------+
-| > \<head\>                                                            |
-| >                                                                     |
-| > \<meta charset= \"UTF-8 \" /\> \< /head\>                           |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;head&gt;</p>
+<p>&lt;meta charset= "UTF-8 " /&gt; &lt; /head&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-> ![](./images/media/image45.jpeg){width="6.17995406824147in"
-> height="1.0423228346456693e-2in"}**10.** **HTML** **设置语言**
+> <img src="media/image45.jpeg" style="width:6.17995in" />**10.**
+> **HTML** **设置语言**
 >
 > 1\. 主要作用：
 >
-> ![](./images/media/image46.png){width="0.1354790026246719in"
-> height="0.13547681539807524in"} 让浏览器显示对应的翻译提示。
-> ![](./images/media/image47.png){width="0.1354790026246719in"
-> height="0.13547790901137358in"} 有利于搜索引擎优化。
+> <img src="media/image46.png" style="width:0.13548in;height:0.13548in" />
+> 让浏览器显示对应的翻译提示。
+> <img src="media/image47.png" style="width:0.13548in;height:0.13548in" />
+> 有利于搜索引擎优化。
 >
 > 2\. 具体写法：
 
-+-----------------------------------------------------------------------+
-| > \<html lang= \"zh-CN \"\>                                           |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;html lang= "zh-CN "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 3\. 扩展知识： lang 属性的编写规则（作为一个课外扩展知识，了解即可）。
 
-![](./images/media/image48.png){width="5.7943580489938755in"
-height="0.25011482939632546in"}
+<img src="media/image48.png" style="width:5.79436in;height:0.25011in" />
 
-> ![](./images/media/image49.png){width="4.168525809273841e-2in"
-> height="2.74084208223972in"}1. 第一种写法（语言-国家/地区 ），例如：
+> <img src="media/image49.png" style="height:2.74084in" />1.
+> 第一种写法（语言-国家/地区 ），例如：
 >
-> ![](./images/media/image50.jpeg){width="4.168525809273841e-2in"
-> height="4.1686351706036746e-2in"} zh-CN ：中文-中国大陆（简体中文）
+> <img src="media/image50.jpeg" /> zh-CN ：中文-中国大陆（简体中文）
 >
-> ![](./images/media/image51.jpeg){width="4.168525809273841e-2in"
-> height="4.1686351706036746e-2in"} zh-TW ：中文-中国台湾（繁体中文）
+> <img src="media/image51.jpeg" /> zh-TW ：中文-中国台湾（繁体中文）
 >
-> ![](./images/media/image52.jpeg){width="4.168525809273841e-2in"
-> height="4.1686351706036746e-2in"} zh ：中文
+> <img src="media/image52.jpeg" /> zh ：中文
 >
-> ![](./images/media/image53.jpeg){width="4.168525809273841e-2in"
-> height="4.1686351706036746e-2in"} en-US ：英语-美国
+> <img src="media/image53.jpeg" /> en-US ：英语-美国
 >
-> ![](./images/media/image54.jpeg){width="4.168525809273841e-2in"
-> height="4.1686351706036746e-2in"} en-GB ：英语-英国
+> <img src="media/image54.jpeg" /> en-GB ：英语-英国
 >
-> 2\. 第二种写法（语言---具体种类）已不推荐使用，例如：
+> 2\. 第二种写法（语言—具体种类）已不推荐使用，例如：
 >
-> ![](./images/media/image55.jpeg){width="4.168525809273841e-2in"
-> height="4.167979002624672e-2in"} zh-Hans ：中文---简体
+> <img src="media/image55.jpeg" /> zh-Hans ：中文—简体
 >
-> ![](./images/media/image56.jpeg){width="4.168525809273841e-2in"
-> height="4.167979002624672e-2in"} zh-Hant ：中文---繁体
+> <img src="media/image56.jpeg" /> zh-Hant ：中文—繁体
 >
 > 3\. W3School
 > 上的说明：[**《语言代码参考手册》**](https://www.w3school.com.cn/tags/html_ref_language_codes.asp)
@@ -534,25 +675,27 @@ height="0.25011482939632546in"}
 >
 > **11.** **HTML标准结构**
 
-![](./images/media/image57.png){width="6.17995406824147in"
-height="1.0423228346456693e-2in"}
+<img src="media/image57.png" style="width:6.17995in" />
 
-> ![](./images/media/image58.png){width="4.168525809273841e-2in"
-> height="4.1686351706036746e-2in"} HTML标准结构如下：
+> <img src="media/image58.png" /> HTML标准结构如下：
 
-+-----------------------------------------------------------------------+
-| > \< !DOCTYPE html\>                                                  |
-| >                                                                     |
-| > \<html lang= \"zh-CN \"\> \<head\>                                  |
-| >                                                                     |
-| > \<meta charset= \"UTF-8 \"\>                                        |
-| >                                                                     |
-| > \<title\>我是一个标题\</title\> \< /head\>                          |
-| >                                                                     |
-| > \<body\>                                                            |
-| >                                                                     |
-| > \< /body\> \< /html\>                                               |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt; !DOCTYPE html&gt;</p>
+<p>&lt;html lang= "zh-CN "&gt; &lt;head&gt;</p>
+<p>&lt;meta charset= "UTF-8 "&gt;</p>
+<p>&lt;title&gt;我是一个标题&lt;/title&gt; &lt; /head&gt;</p>
+<p>&lt;body&gt;</p>
+<p>&lt; /body&gt; &lt; /html&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > · 输入 ! ，随后回车即可快速生成标准结构。
 >
@@ -566,80 +709,145 @@ height="1.0423228346456693e-2in"}
 >
 > **1.** **开发者文档**
 
-![](./images/media/image59.png){width="6.17995406824147in"
-height="1.0416666666666666e-2in"}
+<img src="media/image59.png" style="width:6.17995in" />
 
 > · W3C官网： [www.w3c.org](https://www.w3c.org)
 >
 > · W3School： www .w3school .com .cn
 >
-> · MDN： developer .mozilla .org ------ 平时用的最多。
+> · MDN： developer .mozilla .org —— 平时用的最多。
 >
-> ![](./images/media/image60.jpeg){width="6.17995406824147in"
-> height="1.0416666666666666e-2in"}**2.** **排版标签**
+> <img src="media/image60.jpeg" style="width:6.17995in" />**2.**
+> **排版标签**
 
-+--------------+--------------------------------------------------+------------+
-| > **标签名** | > **标签含义**                                   | > **单**   |
-|              |                                                  | > **/**    |
-|              |                                                  | > **双**   |
-|              |                                                  | > **标签** |
-+--------------+--------------------------------------------------+------------+
-| > h1 \~ h6   | > 标题                                           | > 双       |
-+--------------+--------------------------------------------------+------------+
-| > p          | > 段落                                           | > 双       |
-+--------------+--------------------------------------------------+------------+
-| > div        | > 没有任何含义，用于整体布局（生活中的包装袋）。 | > 双       |
-+--------------+--------------------------------------------------+------------+
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 67%" />
+<col style="width: 19%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>标签名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>标签含义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>单</strong> <strong>/</strong> <strong>双</strong>
+<strong>标签</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>h1 ~ h6</p>
+</blockquote></td>
+<td><blockquote>
+<p>标题</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>p</p>
+</blockquote></td>
+<td><blockquote>
+<p>段落</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>div</p>
+</blockquote></td>
+<td><blockquote>
+<p>没有任何含义，用于整体布局（生活中的包装袋）。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-> 1\. h1 最好写一个， h2\~h6 能适当多写。
+> 1\. h1 最好写一个， h2~h6 能适当多写。
 >
-> 2\. h1\~h6 不能互相嵌套，例如： h1 标签中最好不要写 h2 标签了。
+> 2\. h1~h6 不能互相嵌套，例如： h1 标签中最好不要写 h2 标签了。
 >
-> 3\. p 标签很特殊！它里面不能有： h1\~h6 、 p 、 div
+> 3\. p 标签很特殊！它里面不能有： h1~h6 、 p 、 div
 > 标签（暂时先这样记，后面会说规律）。
 >
 > **3.** **语义化标签**
 
-+-------------------------------------------------------------------------------------------------+
-| > ![](./images/media/image61.png){width="4.168525809273841e-2in"                                |
-| > height="4.167979002624672e-2in"} 概念：用特定的标签，去表达特定的含义。                       |
-| >                                                                                               |
-| > · 原则：标签的默认效果不重要（后期可以通过 CSS 随便控制效果），语义最重要！                   |
-| >                                                                                               |
-| > . 举例：对于 h1 标签，效果是文字很大（不重要），语义是网页主要内容（很重要）。                |
-| >                                                                                               |
-| > ![](./images/media/image62.png){width="4.168525809273841e-2in"                                |
-| > height="4.167979002624672e-2in"} 优势：                                                       |
-| >                                                                                               |
-| > 。 代码结构清晰可读性强。                                                                     |
-| >                                                                                               |
-| > 。 有利于 **SEO** （搜索引擎优化）。                                                          |
-| >                                                                                               |
-| > 。 方便设备解析（如屏幕阅读器、盲人阅读器等）。                                               |
-+-------------------------------------------------------------+-----------------------------------+
-| > **4.** **块级元素** **与** **行内元素**                   |                                   |
-+-------------------------------------------------------------+-----------------------------------+
-| > 1\. **块级元素**：独占一行（排版标签都是块级元素）。                                          |
-+-------------------------------------------------------------------------------------------------+
-| > 2\. **行内元素**：不独占一行（目前只学了： input ，稍后会学习更多）。                         |
-+-------------------------------------------------------------------------------------------------+
-| > 3\. **使用原则**：                                                                            |
-+-------------------------+-----------------------------------------------------------------------+
-|                         | > 1\. **块级元素** 中能写 **行内元素** 和 **块级元素**                |
-|                         | > （简单记：块级元素中几乎什么都能写）。                              |
-|                         | >                                                                     |
-|                         | > 2\. **行内元素** 中能写 **行内元素**，但不能写 **块级元素**。       |
-|                         | >                                                                     |
-|                         | > 3\. 一些特殊的规则：                                                |
-|                         | >                                                                     |
-|                         | > ![](./images/media/image63.jpeg){width="4.168525809273841e-2in"     |
-|                         | > height="4.169291338582677e-2in"} h1\~h6 不能互相嵌套。              |
-|                         | >                                                                     |
-|                         | > ![](./images/media/image64.jpeg){width="4.168525809273841e-2in"     |
-|                         | > height="4.167979002624672e-2in"} p 中不要写块级元素。               |
-+-------------------------+-----------------------------------+-----------------------------------+
-| > **5.文本标签_常用的**                                     |                                   |
-+-------------------------------------------------------------+-----------------------------------+
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 62%" />
+<col style="width: 30%" />
+</colgroup>
+<tbody>
+<tr>
+<td colspan="3"><blockquote>
+<p><img src="media/image61.png" />
+概念：用特定的标签，去表达特定的含义。</p>
+<p>· 原则：标签的默认效果不重要（后期可以通过 CSS
+随便控制效果），语义最重要！</p>
+<p>. 举例：对于 h1
+标签，效果是文字很大（不重要），语义是网页主要内容（很重要）。</p>
+<p><img src="media/image62.png" /> 优势：</p>
+<p>。 代码结构清晰可读性强。</p>
+<p>。 有利于 <strong>SEO</strong> （搜索引擎优化）。</p>
+<p>。 方便设备解析（如屏幕阅读器、盲人阅读器等）。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td colspan="2"><blockquote>
+<p><strong>4.</strong> <strong>块级元素</strong> <strong>与</strong>
+<strong>行内元素</strong></p>
+</blockquote></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="3"><blockquote>
+<p>1. <strong>块级元素</strong>：独占一行（排版标签都是块级元素）。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td colspan="3"><blockquote>
+<p>2. <strong>行内元素</strong>：不独占一行（目前只学了： input
+，稍后会学习更多）。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td colspan="3"><blockquote>
+<p>3. <strong>使用原则</strong>：</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2"><blockquote>
+<p>1. <strong>块级元素</strong> 中能写 <strong>行内元素</strong> 和
+<strong>块级元素</strong> （简单记：块级元素中几乎什么都能写）。</p>
+<p>2. <strong>行内元素</strong> 中能写
+<strong>行内元素</strong>，但不能写 <strong>块级元素</strong>。</p>
+<p>3. 一些特殊的规则：</p>
+<p><img src="media/image63.jpeg" /> h1~h6 不能互相嵌套。</p>
+<p><img src="media/image64.jpeg" /> p 中不要写块级元素。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td colspan="2"><blockquote>
+<p><strong>5.文本标签_常用的</strong></p>
+</blockquote></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 > 1\. 用于包裹：词汇、短语等。
 >
@@ -649,72 +857,265 @@ height="1.0416666666666666e-2in"}
 >
 > 4\. 文本标签通常都是行内元素。
 
-+--------------+-----------------------------------------+---------------+
-| > **标签名** | > **标签语义**                          | > **单**      |
-|              |                                         | > **/**       |
-|              |                                         | > **双**      |
-|              |                                         | > **标签**    |
-+--------------+-----------------------------------------+---------------+
-| > em         | > 要着重阅读的内容                      | > 双          |
-+--------------+-----------------------------------------+---------------+
-| > strong     | > 十分重要的内容（语气比em要强）        | > 双          |
-+--------------+-----------------------------------------+---------------+
-| > span       | > 没有语义，用于包裹短语的通用容器      | > 双          |
-+--------------+-----------------------------------------+---------------+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 59%" />
+<col style="width: 23%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>标签名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>标签语义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>单</strong> <strong>/</strong> <strong>双</strong>
+<strong>标签</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>em</p>
+</blockquote></td>
+<td><blockquote>
+<p>要着重阅读的内容</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>strong</p>
+</blockquote></td>
+<td><blockquote>
+<p>十分重要的内容（语气比em要强）</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>span</p>
+</blockquote></td>
+<td><blockquote>
+<p>没有语义，用于包裹短语的通用容器</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-> ![](./images/media/image66.jpeg){width="6.17995406824147in"
-> height="1.0416666666666666e-2in"}**6.文本标签_不常用的**
+> <img src="media/image66.jpeg" style="width:6.17995in" />**6.文本标签\_不常用的**
 
-+--------------+------------------------------------------------------------+---------------+
-| > **标签名** | > **标签语义**                                             | > **单/双标** |
-|              |                                                            | >             |
-|              |                                                            | > **签**      |
-+--------------+------------------------------------------------------------+---------------+
-| > cite       | > 作品标题（书籍、歌曲、电影、电视节目、绘画、雕塑）       | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-|              | > 特殊术语 ，或专属名词                                    | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-| > del 与 ins | > 删除的文本 【与】 插入的文本                             | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-| > sub 与 sup | > 下标文字 【与】 上标文字                                 | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-| > code       | > 一段代码                                                 | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-| > samp       | > 从正常的上下文中，将某些内容提取出来，例如：标识设备输出 | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-|              | > 键盘文本，表示文本是通过键盘输入的，经常用在与计算机相关 | > 双          |
-|              | > 的手册中                                                 |               |
-+--------------+------------------------------------------------------------+---------------+
-| > abbr       | > 缩写，最好配合上 title 属性                              | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-|              | > 更改文本方向，要配合 dir 属性，可选值: ltr （默认值）、  | > 双          |
-|              | > rtl                                                      |               |
-+--------------+------------------------------------------------------------+---------------+
-|              | > 标记变量，可以与 code 标签一起使用                       | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-| > small      | > 附属细则，例如：包括版权、法律文本。 ------ 很少使用     | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-| > b          | > 摘要中的关键字、评论中的产品名称。 ------ 很少使用       | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-|              | > 本意是：人物的思想活动、所说的话等等。                   | > 双          |
-|              | >                                                          |               |
-|              | > 现在多用于：呈现字体图标（后面要讲的内容）。             |               |
-+--------------+------------------------------------------------------------+---------------+
-|              | > 与正常内容有反差文本，例如：错的单词、不合适的描述等。   | > 双          |
-|              | > ------ 很少使用                                          |               |
-+--------------+------------------------------------------------------------+---------------+
-| > q          | > 短引用 ------ 很少使用                                   | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-| > blockquote | > 长引用 ------ 很少使用                                   | > 双          |
-+--------------+------------------------------------------------------------+---------------+
-| > address    | > 地址信息                                                 | > 双          |
-+--------------+------------------------------------------------------------+---------------+
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 67%" />
+<col style="width: 13%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>标签名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>标签语义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>单/双标</strong></p>
+<p><strong>签</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>cite</p>
+</blockquote></td>
+<td><blockquote>
+<p>作品标题（书籍、歌曲、电影、电视节目、绘画、雕塑）</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>特殊术语 ，或专属名词</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>del 与 ins</p>
+</blockquote></td>
+<td><blockquote>
+<p>删除的文本 【与】 插入的文本</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>sub 与 sup</p>
+</blockquote></td>
+<td><blockquote>
+<p>下标文字 【与】 上标文字</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>code</p>
+</blockquote></td>
+<td><blockquote>
+<p>一段代码</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>samp</p>
+</blockquote></td>
+<td><blockquote>
+<p>从正常的上下文中，将某些内容提取出来，例如：标识设备输出</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>键盘文本，表示文本是通过键盘输入的，经常用在与计算机相关 的手册中</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>abbr</p>
+</blockquote></td>
+<td><blockquote>
+<p>缩写，最好配合上 title 属性</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>更改文本方向，要配合 dir 属性，可选值: ltr （默认值）、 rtl</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>标记变量，可以与 code 标签一起使用</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>small</p>
+</blockquote></td>
+<td><blockquote>
+<p>附属细则，例如：包括版权、法律文本。 —— 很少使用</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>b</p>
+</blockquote></td>
+<td><blockquote>
+<p>摘要中的关键字、评论中的产品名称。 —— 很少使用</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>本意是：人物的思想活动、所说的话等等。</p>
+<p>现在多用于：呈现字体图标（后面要讲的内容）。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>与正常内容有反差文本，例如：错的单词、不合适的描述等。 ——
+很少使用</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>q</p>
+</blockquote></td>
+<td><blockquote>
+<p>短引用 —— 很少使用</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>blockquote</p>
+</blockquote></td>
+<td><blockquote>
+<p>长引用 —— 很少使用</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>address</p>
+</blockquote></td>
+<td><blockquote>
+<p>地址信息</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image67.png){width="6.17995406824147in"
-height="5.209755030621172e-2in"}
+<img src="media/image67.png" style="width:6.17995in" />
 
-> ![](./images/media/image68.png){width="4.168525809273841e-2in"
-> height="2.1572265966754154in"}备注：
+> <img src="media/image68.png" style="height:2.15723in" />备注：
 >
 > 1\.
 > 这些不常用的文本标签，编码时不用过于纠结（酌情而定，不用也没毛病）。
@@ -727,34 +1128,59 @@ height="5.209755030621172e-2in"}
 >
 > 4\.
 > HTML标签太多了！记住那些：重要的、语义感强的标签即可；截止目前，有这些：
-> h1\~h6 、 p 、 div 、 em 、 strong 、 span
+> h1~h6 、 p 、 div 、 em 、 strong 、 span
 >
 > **7.** **图片标签**
 
-![](./images/media/image69.jpeg){width="6.17995406824147in"
-height="1.0416666666666666e-2in"}
+<img src="media/image69.jpeg" style="width:6.17995in" />
 
 > **1.** **基本使用**
 
-+------------+--------------+------------------------------------------+---------------+
-| > **标签** | > **标签语** | > **常用属性**                           | > **单/双标** |
-| > **名**   | >            |                                          | >             |
-|            | > **义**     |                                          | > **签**      |
-+------------+--------------+------------------------------------------+---------------+
-| > img      | > 图片       | > src ：图片路径（又称：图片地址）       | > 单          |
-|            |              | > ------ 图片的具体位置                  |               |
-|            |              | >                                        |               |
-|            |              | > alt ：图片描述                         |               |
-|            |              | >                                        |               |
-|            |              | > width ：图片宽度，单位是像素，例如：   |               |
-|            |              | > 200px 或 200                           |               |
-|            |              | >                                        |               |
-|            |              | > height ：图片高度， 单位是像素，例如： |               |
-|            |              | > 200px 或 200                           |               |
-+------------+--------------+------------------------------------------+---------------+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 12%" />
+<col style="width: 60%" />
+<col style="width: 15%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>标签</strong> <strong>名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>标签语</strong></p>
+<p><strong>义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>常用属性</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>单/双标</strong></p>
+<p><strong>签</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>img</p>
+</blockquote></td>
+<td><blockquote>
+<p>图片</p>
+</blockquote></td>
+<td><blockquote>
+<p>src ：图片路径（又称：图片地址） —— 图片的具体位置</p>
+<p>alt ：图片描述</p>
+<p>width ：图片宽度，单位是像素，例如： 200px 或 200</p>
+<p>height ：图片高度， 单位是像素，例如： 200px 或 200</p>
+</blockquote></td>
+<td><blockquote>
+<p>单</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-> ![](./images/media/image70.jpeg){width="4.168525809273841e-2in"
-> height="2.2093503937007872in"}总结：
+> <img src="media/image70.jpeg" style="height:2.20935in" />总结：
 >
 > 1\. 像素（ px ）是一种单位，学到 CSS 时，我们会详细讲解。
 >
@@ -765,7 +1191,7 @@ height="1.0416666666666666e-2in"}
 >
 > 4\. alt 属性的作用：
 >
-> 。 搜索引擎通过 alt 属性，得知图片的内容。 ------ 最主要的作用。
+> 。 搜索引擎通过 alt 属性，得知图片的内容。 —— 最主要的作用。
 >
 > 。 当图片无法展示时候，有些浏览器会呈现 alt 属性的值。
 >
@@ -775,21 +1201,63 @@ height="1.0416666666666666e-2in"}
 >
 > 1\. **相对路径**：以**当前位置**作为参考点，去建立路径。
 
-+---------------------------------------------------------------+------------+------------+-----------------------------------------+
-| > **已有结构**                                                | > **符号** | > **含义** | > **举例（在** 测试 . html **中）**     |
-+---------------------------------------------------------------+------------+------------+-----------------------------------------+
-| ![](./images/media/image71.jpeg){width="0.7920341207349081in" | > . /      | > 同级     | > 引入【怪兽.jpg】： \<img src= \" .    |
-| height="0.7711909448818898in"}                                |            |            | > /怪兽 .jpg \"\>                       |
-|                                                               +------------+------------+-----------------------------------------+
-|                                                               |            | > 下一 级  | > 引入【喜羊羊.jpg】： \<img src= \" .  |
-|                                                               |            |            | > /a/喜羊 羊 .jpg \"\>                  |
-|                                                               +------------+------------+-----------------------------------------+
-|                                                               |            | > 上一 级  | > 引入【奥特曼.jpg】： \<img src= \" .  |
-|                                                               |            |            | > . /奥特曼 .jpg \"\>                   |
-+---------------------------------------------------------------+------------+------------+-----------------------------------------+
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 10%" />
+<col style="width: 11%" />
+<col style="width: 59%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>已有结构</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>符号</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>含义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>举例（在</strong> 测试 . html <strong>中）</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td rowspan="3"><img src="media/image71.jpeg"
+style="width:0.79203in;height:0.77119in" /></td>
+<td><blockquote>
+<p>. /</p>
+</blockquote></td>
+<td><blockquote>
+<p>同级</p>
+</blockquote></td>
+<td><blockquote>
+<p>引入【怪兽.jpg】： &lt;img src= " . /怪兽 .jpg "&gt;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>下一 级</p>
+</blockquote></td>
+<td><blockquote>
+<p>引入【喜羊羊.jpg】： &lt;img src= " . /a/喜羊 羊 .jpg "&gt;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>上一 级</p>
+</blockquote></td>
+<td><blockquote>
+<p>引入【奥特曼.jpg】： &lt;img src= " . . /奥特曼 .jpg "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image72.jpeg){width="4.168525809273841e-2in"
-height="0.9483497375328084in"}
+<img src="media/image72.jpeg" style="height:0.94835in" />
 
 > 注意点：
 >
@@ -805,8 +1273,7 @@ height="0.9483497375328084in"}
 > 2\. 网络绝对路径： <http://www.atguigu.com/images/index_new/logo.png>
 > 。
 
-![](./images/media/image73.jpeg){width="4.168525809273841e-2in"
-height="1.1463615485564305in"}
+<img src="media/image73.jpeg" style="height:1.14636in" />
 
 > 注意点：
 >
@@ -821,8 +1288,7 @@ height="1.1463615485564305in"}
 
 > 1\. jpg 格式：
 
-![](./images/media/image74.jpeg){width="4.168525809273841e-2in"
-height="1.3964840332458444in"}
+<img src="media/image74.jpeg" style="height:1.39648in" />
 
 > 概述：扩展名为 .jpg 或 .jpeg
 > ，是一种有损的压缩格式（把肉眼不容易观察出来的细节 丢弃了）。
@@ -831,12 +1297,11 @@ height="1.3964840332458444in"}
 > 、不支持透明背景、不支持动态图。
 >
 > 使用场景：对图片细节**没有极高要求**的场景，例如：网站的产品宣传图等
-> 。 ------ 该格式网 页中很常见。
+> 。 —— 该格式网 页中很常见。
 >
 > 2\. png 格式：
 
-![](./images/media/image75.jpeg){width="4.168525809273841e-2in"
-height="1.1880555555555556in"}
+<img src="media/image75.jpeg" style="height:1.18806in" />
 
 > 概述：扩展名为 .png ，是一种无损的压缩格式，能够更高质量的保存图片。
 >
@@ -848,8 +1313,7 @@ height="1.1880555555555556in"}
 >
 > 3\. bmp 格式：
 
-![](./images/media/image76.jpeg){width="4.168525809273841e-2in"
-height="1.3964840332458444in"}
+<img src="media/image76.jpeg" style="height:1.39648in" />
 
 > 概述：扩展名为 .bmp
 > ，不进行压缩的一种格式，在最大程度上保留图片更多的细节。
@@ -863,8 +1327,7 @@ height="1.3964840332458444in"}
 >
 > 4\. gif 格式：
 
-![](./images/media/image77.jpeg){width="4.168525809273841e-2in"
-height="0.9796270778652668in"}
+<img src="media/image77.jpeg" style="height:0.97963in" />
 
 > 概述：扩展名为 .gif ，仅支持256种颜色，色彩呈现不是很完整。
 >
@@ -874,8 +1337,7 @@ height="0.9796270778652668in"}
 >
 > 5\. web p 格式：
 
-![](./images/media/image78.jpeg){width="4.168525809273841e-2in"
-height="0.9796150481189851in"}
+<img src="media/image78.jpeg" style="height:0.97962in" />
 
 > 概述：扩展名为 .web p ，谷歌推出的一种格式，专门用来在网页中呈现图片。
 >
@@ -884,8 +1346,8 @@ height="0.9796150481189851in"}
 >
 > 使用场景：网页中的各种图片。
 >
-> ![](./images/media/image79.jpeg){width="4.168525809273841e-2in"
-> height="1.2714162292213473in"}6. base64 格式
+> <img src="media/image79.jpeg" style="height:1.27142in" />6. base64
+> 格式
 >
 > 1\. 本质：一串特殊的文本，要通过浏览器打开，传统看图应用通常无法打开。
 >
@@ -902,84 +1364,113 @@ height="0.9796150481189851in"}
 >
 > **8.** **超链接**
 
-![](./images/media/image80.jpeg){width="6.17995406824147in"
-height="1.0416666666666666e-2in"}
+<img src="media/image80.jpeg" style="width:6.17995in" />
 
 > 主要作用：从当前页面进行跳转。
 
 可以实现：①跳转到指定页面、②跳转到指定文件（也可触发下载）、③跳转到锚点位置、④唤起指定
 应用。
 
-+--------------+----------------+-----------------------------------------+------------+
-| > **标签名** | > **标签语义** | > **常用属性**                          | > **单**   |
-|              |                |                                         | > **/**    |
-|              |                |                                         | > **双**   |
-|              |                |                                         | > **标签** |
-+--------------+----------------+-----------------------------------------+------------+
-| > a          | > 超链接       | > href ： 指定要跳转到的具体目标。      | > 双       |
-|              |                | >                                       |            |
-|              |                | > target ：                             |            |
-|              |                | > 控制跳转时如何打开页面，常用值如下:   |            |
-|              |                | >                                       |            |
-|              |                | > **\_self** ：在本窗口打开。           |            |
-|              |                | >                                       |            |
-|              |                | > **\_blank** ：在新窗口打开。          |            |
-|              |                | >                                       |            |
-|              |                | > id ： 元素的唯一                      |            |
-|              |                | > 标识，可用于设置锚点。                |            |
-|              |                | >                                       |            |
-|              |                | > name ： 元素的名字，写在 a            |            |
-|              |                | > 标签中，也能设置锚点。                |            |
-+--------------+----------------+-----------------------------------------+------------+
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 13%" />
+<col style="width: 59%" />
+<col style="width: 15%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>标签名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>标签语义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>常用属性</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>单</strong> <strong>/</strong> <strong>双</strong>
+<strong>标签</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>a</p>
+</blockquote></td>
+<td><blockquote>
+<p>超链接</p>
+</blockquote></td>
+<td><blockquote>
+<p>href ： 指定要跳转到的具体目标。</p>
+<p>target ： 控制跳转时如何打开页面，常用值如下:</p>
+<p><strong>_self</strong> ：在本窗口打开。</p>
+<p><strong>_blank</strong> ：在新窗口打开。</p>
+<p>id ： 元素的唯一 标识，可用于设置锚点。</p>
+<p>name ： 元素的名字，写在 a 标签中，也能设置锚点。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > **1.** **跳转到页面**
 
-+-----------------------------------------------------------------------+
-| > \< !\-- 跳转其他网页 \--\>                                          |
-| >                                                                     |
-| > \<a href=\"<https://www.jd.com/>\" target=\"\_blank\"\>去京东\</a\> |
-| >                                                                     |
-| > \< !\-- 跳转本地网页 \--\>                                          |
-| >                                                                     |
-| > \<a href= \" . /10_HTML排版标签 .html \" target=                    |
-| > \"\_self\"\>去看排版标签\</a\>                                      |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt; !-- 跳转其他网页 --&gt;</p>
+<p>&lt;a href="<a href="https://www.jd.com/">https://www.jd.com/</a>"
+target="_blank"&gt;去京东&lt;/a&gt;</p>
+<p>&lt; !-- 跳转本地网页 --&gt;</p>
+<p>&lt;a href= " . /10_HTML排版标签 .html " target=
+"_self"&gt;去看排版标签&lt;/a&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image81.jpeg){width="4.168525809273841e-2in"
-height="1.2714293525809275in"}
+<img src="media/image81.jpeg" style="height:1.27143in" />
 
 > 注意点：
 >
 > 1\. 代码中的**多个空格** 、 **多个回车**，都会被浏览器解析成一个空格！
 >
 > 2\. 虽然 a 是行内元素，但 a 元素可以包裹除它自身外的任何元素！
-> 想展示多个回车或空格，怎么办呢？ ------ 后面会讲。
+> 想展示多个回车或空格，怎么办呢？ —— 后面会讲。
 >
 > **2.** **跳转到文件**
 
-+-----------------------------------------------------------------------+
-| > \< !\-- 浏览器能直接打开的文件 \--\>                                |
-| >                                                                     |
-| > \<a href= \" . /resource/自拍 .jpg\"\>看自拍\</a\>                  |
-| >                                                                     |
-| > \<a href= \" . /resource/小电影 .mp4\"\>看小电影\</a\>              |
-| >                                                                     |
-| > \<a href= \" . /resource/小姐姐 .gif\"\>看小姐姐\</a\>              |
-| >                                                                     |
-| > \<a href= \" . /resource/如何一夜暴富 .pdf\"\>点我一夜暴富\</a\>    |
-| >                                                                     |
-| > \< !\-- 浏览器不能打开的文件，会自动触发下载 \--\>                  |
-| >                                                                     |
-| > \<a href= \" . /resource/内部资源 .zip\"\>内部资源\</a\>            |
-| >                                                                     |
-| > \< !\-- 强制触发下载 \--\>                                          |
-| >                                                                     |
-| > \<a href= \" . /resource/小电影 .mp4 \" download= \" 电影片段       |
-| > .mp4\"\>下载电影\</a\>                                              |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt; !-- 浏览器能直接打开的文件 --&gt;</p>
+<p>&lt;a href= " . /resource/自拍 .jpg"&gt;看自拍&lt;/a&gt;</p>
+<p>&lt;a href= " . /resource/小电影 .mp4"&gt;看小电影&lt;/a&gt;</p>
+<p>&lt;a href= " . /resource/小姐姐 .gif"&gt;看小姐姐&lt;/a&gt;</p>
+<p>&lt;a href= " . /resource/如何一夜暴富
+.pdf"&gt;点我一夜暴富&lt;/a&gt;</p>
+<p>&lt; !-- 浏览器不能打开的文件，会自动触发下载 --&gt;</p>
+<p>&lt;a href= " . /resource/内部资源 .zip"&gt;内部资源&lt;/a&gt;</p>
+<p>&lt; !-- 强制触发下载 --&gt;</p>
+<p>&lt;a href= " . /resource/小电影 .mp4 " download= " 电影片段
+.mp4"&gt;下载电影&lt;/a&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image82.jpeg){width="4.168525809273841e-2in"
-height="0.739922353455818in"}
+<img src="media/image82.jpeg" style="height:0.73992in" />
 
 > 注意1：若浏览器无法打开文件，则会引导用户下载。
 >
@@ -988,21 +1479,27 @@ height="0.739922353455818in"}
 >
 > **3.** **跳转到锚点**
 >
-> 什么是锚点？ ------ 网页中的一个标记点。 具体使用方式：
+> 什么是锚点？ —— 网页中的一个标记点。 具体使用方式：
 >
-> ![](./images/media/image83.png){width="4.168525809273841e-2in"
-> height="4.167979002624672e-2in"} **第一步：设置锚点**
+> <img src="media/image83.png" /> **第一步：设置锚点**
 
-+-----------------------------------------------------------------------+
-| > \< !\-- 第一种方式： a标签配合name属性 \--\> \<a name=              |
-| > \"test1\"\>\</a\>                                                   |
-| >                                                                     |
-| > \< !\-- 第二种方式：其他标签配合id属性 \--\> \<h2 id=               |
-| > \"test2\"\>我是一个位置\</h2\>                                      |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt; !-- 第一种方式： a标签配合name属性 --&gt; &lt;a name=
+"test1"&gt;&lt;/a&gt;</p>
+<p>&lt; !-- 第二种方式：其他标签配合id属性 --&gt; &lt;h2 id=
+"test2"&gt;我是一个位置&lt;/h2&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image84.jpeg){width="4.168525809273841e-2in"
-height="0.9691972878390201in"}
+<img src="media/image84.jpeg" style="height:0.9692in" />
 
 > 注意点：
 >
@@ -1011,77 +1508,97 @@ height="0.9691972878390201in"}
 >
 > 2\. name 和 id 都是区分大小写的，且 id 最好别是数字开头。
 >
-> ![](./images/media/image85.png){width="4.168525809273841e-2in"
-> height="4.167979002624672e-2in"} **第二步：跳转锚点**
+> <img src="media/image85.png" /> **第二步：跳转锚点**
 
-+-----------------------------------------------------------------------+
-| > \< !\-- 跳转到test1锚点\--\>                                        |
-| >                                                                     |
-| > \<a href= \"#test1\"\>去test1锚点\</a\>                             |
-| >                                                                     |
-| > \< !\-- 跳到本页面顶部 \--\> \<a href= \"# \"\>回到顶部\</a\>       |
-| >                                                                     |
-| > \< !\-- 跳转到其他页面锚点 \--\>                                    |
-| >                                                                     |
-| > \<a href= \"demo .html#test1\"\>去demo .html页面的test1锚点\</a\>   |
-| >                                                                     |
-| > \< !\-- 刷新本页面 \--\>                                            |
-| >                                                                     |
-| > \<a href= \"\"\>刷新本页面\</a\>                                    |
-| >                                                                     |
-| > \< !\-- 执行一段js ,如果还不知道执行什么，可以留空，javascript : ;  |
-| > \--\> \<a href= \"javascript:alert(1 ) ; \"\>点我弹窗\</a\>         |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt; !-- 跳转到test1锚点--&gt;</p>
+<p>&lt;a href= "#test1"&gt;去test1锚点&lt;/a&gt;</p>
+<p>&lt; !-- 跳到本页面顶部 --&gt; &lt;a href= "#
+"&gt;回到顶部&lt;/a&gt;</p>
+<p>&lt; !-- 跳转到其他页面锚点 --&gt;</p>
+<p>&lt;a href= "demo .html#test1"&gt;去demo
+.html页面的test1锚点&lt;/a&gt;</p>
+<p>&lt; !-- 刷新本页面 --&gt;</p>
+<p>&lt;a href= ""&gt;刷新本页面&lt;/a&gt;</p>
+<p>&lt; !-- 执行一段js ,如果还不知道执行什么，可以留空，javascript : ;
+--&gt; &lt;a href= "javascript:alert(1 ) ; "&gt;点我弹窗&lt;/a&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > **4.** **唤起指定应用**
 >
 > 通过 a 标签，可以唤起设备应用程序。
 
-+-----------------------------------------------------------------------+
-| > \< !\-- 唤起设备拨号 \--\>                                          |
-| >                                                                     |
-| > \<a href= \"tel :10010\"\>电话联系\</a\>                            |
-| >                                                                     |
-| > \< !\-- 唤起设备发送邮件 \--\>                                      |
-| >                                                                     |
-| > \<a href= \"mailto:10010@qq.com \"\>邮件联系\</a\> \< !\--          |
-| > 唤起设备发送短信 \--\>                                              |
-| >                                                                     |
-| > \<a href= \"sms:10086\"\>短信联系\</a\>                             |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt; !-- 唤起设备拨号 --&gt;</p>
+<p>&lt;a href= "tel :10010"&gt;电话联系&lt;/a&gt;</p>
+<p>&lt; !-- 唤起设备发送邮件 --&gt;</p>
+<p>&lt;a href= "mailto:10010@qq.com "&gt;邮件联系&lt;/a&gt; &lt; !--
+唤起设备发送短信 --&gt;</p>
+<p>&lt;a href= "sms:10086"&gt;短信联系&lt;/a&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > **9.** **列表**
 
-![](./images/media/image86.jpeg){width="6.17995406824147in"
-height="1.0416666666666666e-2in"}
+<img src="media/image86.jpeg" style="width:6.17995in" />
 
 > **1.** **有序列表**
 >
 > 概念：有顺序或侧重顺序的列表。
 
-+-----------------------------------------------------------------------+
-| > \<h2\>要把大象放冰箱总共分几步\</h2\> \<ol\>                        |
-| >                                                                     |
-| > \<li\>把冰箱门打开\</li\> \<li\>把大象放进去\</li\>                 |
-| >                                                                     |
-| > \<li\>把冰箱门关上\</li\> \< /ol\>                                  |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;h2&gt;要把大象放冰箱总共分几步&lt;/h2&gt; &lt;ol&gt;</p>
+<p>&lt;li&gt;把冰箱门打开&lt;/li&gt;
+&lt;li&gt;把大象放进去&lt;/li&gt;</p>
+<p>&lt;li&gt;把冰箱门关上&lt;/li&gt; &lt; /ol&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > **2.** **无序列表**
 >
 > 概念：无顺序或不侧重顺序的列表。
 
-+-----------------------------------------------------------------------+
-| > \<h2\>我想去的几个城市\</h2\> \<ul\>                                |
-| >                                                                     |
-| > \<li\>成都\</li\>                                                   |
-| >                                                                     |
-| > \<li\>上海\</li\>                                                   |
-| >                                                                     |
-| > \<li\>西安\</li\>                                                   |
-| >                                                                     |
-| > \<li\>武汉\</li\> \< /ul\>                                          |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;h2&gt;我想去的几个城市&lt;/h2&gt; &lt;ul&gt;</p>
+<p>&lt;li&gt;成都&lt;/li&gt;</p>
+<p>&lt;li&gt;上海&lt;/li&gt;</p>
+<p>&lt;li&gt;西安&lt;/li&gt;</p>
+<p>&lt;li&gt;武汉&lt;/li&gt; &lt; /ul&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > **3.** **列表嵌套**
 >
@@ -1095,32 +1612,38 @@ height="1.0416666666666666e-2in"}
 > 2\. 一个 dl 就是一个自定义列表， 一个 dt 就是一个术语名称， 一个 dd
 > 就是术语描述（可以有多 个）。
 
-+-----------------------------------------------------------------------+
-| > \<h2\>如何高效的学习？\< /h2\> \<dl\>                               |
-| >                                                                     |
-| > \<dt\>做好笔记\</dt\>                                               |
-| >                                                                     |
-| > \<dd\>笔记是我们以后复习的一个抓手\</dd\>                           |
-| >                                                                     |
-| > \<dd\>笔记可以是电子版，也可以是纸质版\</dd\> \<dt\>多加练习\</dt\> |
-| >                                                                     |
-| > \<dd\>只有敲出来的代码，才是自己的\</dd\> \<dt\>别怕出错\</dt\>     |
-| >                                                                     |
-| > \<dd\>错很正常，改正后并记住，就是经验\</dd\> \< /dl\>              |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;h2&gt;如何高效的学习？&lt; /h2&gt; &lt;dl&gt;</p>
+<p>&lt;dt&gt;做好笔记&lt;/dt&gt;</p>
+<p>&lt;dd&gt;笔记是我们以后复习的一个抓手&lt;/dd&gt;</p>
+<p>&lt;dd&gt;笔记可以是电子版，也可以是纸质版&lt;/dd&gt;
+&lt;dt&gt;多加练习&lt;/dt&gt;</p>
+<p>&lt;dd&gt;只有敲出来的代码，才是自己的&lt;/dd&gt;
+&lt;dt&gt;别怕出错&lt;/dt&gt;</p>
+<p>&lt;dd&gt;错很正常，改正后并记住，就是经验&lt;/dd&gt; &lt;
+/dl&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > **10.** **表格**
 
-![](./images/media/image88.png){width="6.17995406824147in"
-height="1.042979002624672e-2in"}
+<img src="media/image88.png" style="width:6.17995in" />
 
 > **1.** **基本结构**
 >
 > 1\. 一个完整的表格由： **表格标题** 、 **表格头部** 、 **表格主体** 、
 > **表格脚注**，四部分组成。
 
-![](./images/media/image89.jpeg){width="5.7943580489938755in"
-height="3.3869903762029745in"}
+<img src="media/image89.jpeg"
+style="width:5.79436in;height:3.38699in" />
 
 > 2\. 表格涉及到的标签： table ：表格
 >
@@ -1137,104 +1660,179 @@ height="3.3869903762029745in"}
 > th 、 td ：每一个单元格（备注：表格头部中用 th
 > ，表格主体、表格脚注中用： td ）
 
-![](./images/media/image90.png){width="5.794359142607174in"
-height="6.773973097112861in"}
+<img src="media/image90.png" style="width:5.79436in;height:6.77397in" />
 
 3\. 具体编码：
 
-> \<table border= \"1 \"\>
+> &lt;table border= "1 "&gt;
 >
-> \< !\-- 表格标题 \--\>
+> &lt; !-- 表格标题 --&gt;
 >
-> \<caption\>学生信息\</caption\>
+> &lt;caption&gt;学生信息&lt;/caption&gt;
 >
-> \< !\-- 表格头部 \--\>
+> &lt; !-- 表格头部 --&gt;
 >
-> \<thead\>
+> &lt;thead&gt;
 >
-> \<tr\>
+> &lt;tr&gt;
 >
-> \<th\>姓名\</th\>
+> &lt;th&gt;姓名&lt;/th&gt;
 >
-> \<th\>性别\</th\>
+> &lt;th&gt;性别&lt;/th&gt;
 >
-> \<th\>年龄\</th\>
+> &lt;th&gt;年龄&lt;/th&gt;
 >
-> \<th\>民族\</th\>
+> &lt;th&gt;民族&lt;/th&gt;
 >
-> \<th\>政治面貌\</th\> \< /tr\>
+> &lt;th&gt;政治面貌&lt;/th&gt; &lt; /tr&gt;
 >
-> \< /thead\>
+> &lt; /thead&gt;
 
 **2.** **常用属性**
 
-+--------------+----------------+--------------------------------------------------+---------------+
-| > **标签名** | > **标签语义** | > **常用属性**                                   | > **单/双标** |
-|              |                |                                                  | > **签**      |
-+--------------+----------------+--------------------------------------------------+---------------+
-|              | > 表格         | > width ：设置表格宽度。                         | > 双          |
-|              |                | >                                                |               |
-|              |                | > height                                         |               |
-|              |                | > ：设置表格**最小**高度，表格最终高度可能比设置 |               |
-|              |                | > 的值大。                                       |               |
-|              |                | >                                                |               |
-|              |                | > border ：设置表格边框宽度。                    |               |
-|              |                | >                                                |               |
-|              |                | > cellspacing ： 设置单元格之间的间距。          |               |
-+--------------+----------------+--------------------------------------------------+---------------+
-| > thead      | > 表格头部     | > height ：设置表格头部高度。                    | > 双          |
-|              |                | >                                                |               |
-|              |                | > align ：                                       |               |
-|              |                | > 设置单元格的**水平**对齐方式，可选值如下：     |               |
-|              |                | >                                                |               |
-|              |                | > 1\. left ：左对齐                              |               |
-|              |                | >                                                |               |
-|              |                | > 2\. center ：中间对齐                          |               |
-|              |                | >                                                |               |
-|              |                | > 3\. right ：右对齐                             |               |
-|              |                | >                                                |               |
-|              |                | > valign                                         |               |
-|              |                | > ：设置单元格的**垂直**对齐方式，可选值如下：   |               |
-|              |                | >                                                |               |
-|              |                | > 1\. top ：顶部对齐                             |               |
-|              |                | >                                                |               |
-|              |                | > 2\. middle ：中间对齐                          |               |
-|              |                | >                                                |               |
-|              |                | > 3\. bottom ：底部对齐                          |               |
-+--------------+----------------+--------------------------------------------------+---------------+
-| > tbody      | > 表格主体     | > 常用属性与 thead 相同。                        | > 双          |
-+--------------+----------------+--------------------------------------------------+---------------+
-| > tr         | > 行           | > 常用属性与 thead 相同。                        | > 双          |
-+--------------+----------------+--------------------------------------------------+---------------+
-| > tfoot      | > 表格脚注     | > 常用属性与 thead 相同。                        | > 双          |
-+--------------+----------------+--------------------------------------------------+---------------+
-| > td         | > 普通单元     | > width                                          | > 双          |
-|              | >              | > ：设置单元格的宽度，同列所有单元格全都受影     |               |
-|              | > 格           | > 响。                                           |               |
-|              |                | >                                                |               |
-|              |                | > heigth                                         |               |
-|              |                | > ：设置单元格的高度，同行所有单元格全都受影     |               |
-|              |                | > 响。                                           |               |
-|              |                | >                                                |               |
-|              |                | > align ：设置单元格的水平对齐方式。             |               |
-|              |                | >                                                |               |
-|              |                | > valign ：设置单元格的垂直对齐方式。            |               |
-|              |                | >                                                |               |
-|              |                | > rowspan ：指定要跨的行数。                     |               |
-|              |                | >                                                |               |
-|              |                | > colspan ：指定要跨的列数。                     |               |
-+--------------+----------------+--------------------------------------------------+---------------+
-|              | > 表头单元 格  | > 常用属性与 td 相同。                           | > 双          |
-+--------------+----------------+--------------------------------------------------+---------------+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 13%" />
+<col style="width: 60%" />
+<col style="width: 13%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>标签名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>标签语义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>常用属性</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>单/双标</strong> <strong>签</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>表格</p>
+</blockquote></td>
+<td><blockquote>
+<p>width ：设置表格宽度。</p>
+<p>height ：设置表格<strong>最小</strong>高度，表格最终高度可能比设置
+的值大。</p>
+<p>border ：设置表格边框宽度。</p>
+<p>cellspacing ： 设置单元格之间的间距。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>thead</p>
+</blockquote></td>
+<td><blockquote>
+<p>表格头部</p>
+</blockquote></td>
+<td><blockquote>
+<p>height ：设置表格头部高度。</p>
+<p>align ： 设置单元格的<strong>水平</strong>对齐方式，可选值如下：</p>
+<p>1. left ：左对齐</p>
+<p>2. center ：中间对齐</p>
+<p>3. right ：右对齐</p>
+<p>valign ：设置单元格的<strong>垂直</strong>对齐方式，可选值如下：</p>
+<p>1. top ：顶部对齐</p>
+<p>2. middle ：中间对齐</p>
+<p>3. bottom ：底部对齐</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>tbody</p>
+</blockquote></td>
+<td><blockquote>
+<p>表格主体</p>
+</blockquote></td>
+<td><blockquote>
+<p>常用属性与 thead 相同。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>tr</p>
+</blockquote></td>
+<td><blockquote>
+<p>行</p>
+</blockquote></td>
+<td><blockquote>
+<p>常用属性与 thead 相同。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>tfoot</p>
+</blockquote></td>
+<td><blockquote>
+<p>表格脚注</p>
+</blockquote></td>
+<td><blockquote>
+<p>常用属性与 thead 相同。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>td</p>
+</blockquote></td>
+<td><blockquote>
+<p>普通单元</p>
+<p>格</p>
+</blockquote></td>
+<td><blockquote>
+<p>width ：设置单元格的宽度，同列所有单元格全都受影 响。</p>
+<p>heigth ：设置单元格的高度，同行所有单元格全都受影 响。</p>
+<p>align ：设置单元格的水平对齐方式。</p>
+<p>valign ：设置单元格的垂直对齐方式。</p>
+<p>rowspan ：指定要跨的行数。</p>
+<p>colspan ：指定要跨的列数。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>表头单元 格</p>
+</blockquote></td>
+<td><blockquote>
+<p>常用属性与 td 相同。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-> ![](./images/media/image91.jpeg){width="4.168525809273841e-2in"
-> height="1.8342005686789151in"}注意点：
+> <img src="media/image91.jpeg" style="height:1.8342in" />注意点：
 >
-> 1\. \<table\> 元素的 border 属性可以控制表格边框，但 border
+> 1\. &lt;table&gt; 元素的 border 属性可以控制表格边框，但 border
 > 值的大小，并不控制单元格 边框的宽度，
 >
-> 只能控制表格最外侧边框的宽度，这个问题如何解决？ ------ 后期靠 CSS
-> 控制。
+> 只能控制表格最外侧边框的宽度，这个问题如何解决？ —— 后期靠 CSS 控制。
 >
 > 2\. 默认情况下，每列的宽度，得看这一列单元格最长的那个文字。
 >
@@ -1248,45 +1846,79 @@ height="6.773973097112861in"}
 >
 > 2\. colspan ：指定要跨的列数。 课程表效果：
 
-![](./images/media/image93.jpeg){width="6.17995406824147in"
-height="3.428675634295713in"}
+<img src="media/image93.jpeg"
+style="width:6.17995in;height:3.42868in" />
 
 > 编写思路：
 
-![](./images/media/image94.jpeg){width="4.106073928258968in"
-height="3.699634733158355in"}
+<img src="media/image94.jpeg"
+style="width:4.10607in;height:3.69963in" />
 
 > **11.常用标签补充**
 
-+--------------+----------------------------------------------+-------------+
-| > **标签名** | > **标签含义**                               | > **单**    |
-|              |                                              | > **/**     |
-|              |                                              | > **双**    |
-|              |                                              | > **标签**  |
-+--------------+----------------------------------------------+-------------+
-|              | > 换行                                       | > 单        |
-+--------------+----------------------------------------------+-------------+
-|              | > 分隔                                       | > 单        |
-+--------------+----------------------------------------------+-------------+
-|              | > 按原文显示（一般用于在页面中嵌入大段代码） | > 双        |
-+--------------+----------------------------------------------+-------------+
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 65%" />
+<col style="width: 20%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>标签名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>标签含义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>单</strong> <strong>/</strong> <strong>双</strong>
+<strong>标签</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>换行</p>
+</blockquote></td>
+<td><blockquote>
+<p>单</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>分隔</p>
+</blockquote></td>
+<td><blockquote>
+<p>单</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>按原文显示（一般用于在页面中嵌入大段代码）</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image95.jpeg){width="4.168525809273841e-2in"
-height="1.177652012248469in"}
+<img src="media/image95.jpeg" style="height:1.17765in" />
 
 > 注意点：
 >
-> 1\. 不要用 \<br\> 来增加文本之间的行间隔，应使用 \<p\>
+> 1\. 不要用 &lt;br&gt; 来增加文本之间的行间隔，应使用 &lt;p&gt;
 > 元素，或后面即将学到的 CSS margin 属性。
 >
-> 2\. \<hr\>
+> 2\. &lt;hr&gt;
 > 的语义是分隔，如果不想要语义，只是想画一条水平线，那么应当使用 CSS
 > 完成。
 >
 > **12.** **表单**
 
-![](./images/media/image96.png){width="6.17995406824147in"
-height="1.0416666666666666e-2in"}
+<img src="media/image96.png" style="width:6.17995in" />
 
 > 概念：一个包含交互的区域，用于收集用户提供的数据。
 >
@@ -1294,57 +1926,117 @@ height="1.0416666666666666e-2in"}
 >
 > 简单梳理：
 
-+--------------+------------+------------------------------------------------------+-------------+
-| > **标签名** | > **标签** | > **常用属性**                                       | > **单/双** |
-|              | >          |                                                      | > **标签**  |
-|              | > **语义** |                                                      |             |
-+--------------+------------+------------------------------------------------------+-------------+
-| > form       | > 表单     | > action                                             | > 双        |
-|              |            | > ：用于指定表单的提交地址（需要与后端人员沟通后确   |             |
-|              |            | > 定）。                                             |             |
-|              |            | >                                                    |             |
-|              |            | > target                                             |             |
-|              |            | > ：用于控制表单提交后，如何打开页面，常用值如下：   |             |
-|              |            | >                                                    |             |
-|              |            | > \_self ：在本窗口打开。                            |             |
-|              |            | >                                                    |             |
-|              |            | > \_blank ：在新窗口打开。                           |             |
-|              |            | >                                                    |             |
-|              |            | > method                                             |             |
-|              |            | > ：用于控制表单的提交方式，暂时只需了解，在后面     |             |
-|              |            | > Ajax 的课程中，会详细讲解。                        |             |
-+--------------+------------+------------------------------------------------------+-------------+
-|              | > 输入 框  | > type ：设置输入框的类型，目前用到的值是 text       | > 单        |
-|              |            | > ，表示普通 文本。                                  |             |
-|              |            | >                                                    |             |
-|              |            | > name                                               |             |
-|              |            | > ：用于指定提交数据的名字，（需要与后端人员沟通后确 |             |
-|              |            | > 定）。                                             |             |
-+--------------+------------+------------------------------------------------------+-------------+
-| > button     | > 按钮     | > 本小节暂不涉及                                     | > 双        |
-+--------------+------------+------------------------------------------------------+-------------+
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 9%" />
+<col style="width: 66%" />
+<col style="width: 11%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>标签名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>标签</strong></p>
+<p><strong>语义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>常用属性</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>单/双</strong> <strong>标签</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>form</p>
+</blockquote></td>
+<td><blockquote>
+<p>表单</p>
+</blockquote></td>
+<td><blockquote>
+<p>action ：用于指定表单的提交地址（需要与后端人员沟通后确 定）。</p>
+<p>target ：用于控制表单提交后，如何打开页面，常用值如下：</p>
+<p>_self ：在本窗口打开。</p>
+<p>_blank ：在新窗口打开。</p>
+<p>method ：用于控制表单的提交方式，暂时只需了解，在后面 Ajax
+的课程中，会详细讲解。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>输入 框</p>
+</blockquote></td>
+<td><blockquote>
+<p>type ：设置输入框的类型，目前用到的值是 text ，表示普通 文本。</p>
+<p>name ：用于指定提交数据的名字，（需要与后端人员沟通后确 定）。</p>
+</blockquote></td>
+<td><blockquote>
+<p>单</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>button</p>
+</blockquote></td>
+<td><blockquote>
+<p>按钮</p>
+</blockquote></td>
+<td><blockquote>
+<p>本小节暂不涉及</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 在本小节，我们先记住表单的整体形式，稍后会对表单控件进行详细讲解。
 >
 > 示例代码：
 
-+-----------------------------------------------------------------------+
-| > \<form action=\"<https://www.baidu.com/s>\" target=\"\_blank\"      |
-| > method=\"get\"\> \<input type= \"text \" name= \"wd \"\>            |
-| >                                                                     |
-| > \<button\>去百度搜索\</button\> \< /form\>                          |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;form action="<a
+href="https://www.baidu.com/s">https://www.baidu.com/s</a>"
+target="_blank" method="get"&gt; &lt;input type= "text " name= "wd
+"&gt;</p>
+<p>&lt;button&gt;去百度搜索&lt;/button&gt; &lt; /form&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > **2.** **常用表单控件**
 >
 > **①** **文本输入框**
 
-+-----------------------------------------------------------------------+
-| > \<input type= \"text \"\>                                           |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;input type= "text "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image97.jpeg){width="4.168525809273841e-2in"
-height="1.3964840332458444in"}
+<img src="media/image97.jpeg" style="height:1.39648in" />
 
 > 常用属性如下：
 >
@@ -1356,12 +2048,20 @@ height="1.3964840332458444in"}
 >
 > **②** **密码输入框**
 
-+-----------------------------------------------------------------------+
-| > \<input type= \"password \"\>                                       |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;input type= "password "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image98.jpeg){width="4.168525809273841e-2in"
-height="1.3964840332458444in"}
+<img src="media/image98.jpeg" style="height:1.39648in" />
 
 > 常用属性如下：
 >
@@ -1373,14 +2073,21 @@ height="1.3964840332458444in"}
 >
 > **③** **单选框**
 
-+-----------------------------------------------------------------------+
-| > \<input type= \" radio \" name= \"sex \" value= \"female \"\>女     |
-| >                                                                     |
-| > \<input type= \" radio \" name= \"sex \" value= \"male \"\>男       |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;input type= " radio " name= "sex " value= "female "&gt;女</p>
+<p>&lt;input type= " radio " name= "sex " value= "male "&gt;男</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image99.jpeg){width="4.168525809273841e-2in"
-height="1.3964840332458444in"}
+<img src="media/image99.jpeg" style="height:1.39648in" />
 
 > 常用属性如下：
 >
@@ -1393,17 +2100,23 @@ height="1.3964840332458444in"}
 >
 > **④** **复选框**
 
-+-----------------------------------------------------------------------+
-| > \<input type= \"checkbox \" name= \"hobby \" value= \"smoke         |
-| > \"\>抽烟                                                            |
-| >                                                                     |
-| > \<input type= \"checkbox \" name= \"hobby \" value= \"drink\"\>喝酒 |
-| >                                                                     |
-| > \<input type= \"checkbox \" name= \"hobby \" value= \"perm\"\>烫头  |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;input type= "checkbox " name= "hobby " value= "smoke
+"&gt;抽烟</p>
+<p>&lt;input type= "checkbox " name= "hobby " value= "drink"&gt;喝酒</p>
+<p>&lt;input type= "checkbox " name= "hobby " value= "perm"&gt;烫头</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image100.jpeg){width="4.168525809273841e-2in"
-height="1.3964840332458444in"}
+<img src="media/image100.jpeg" style="height:1.39648in" />
 
 > 常用属性如下：：
 >
@@ -1415,12 +2128,20 @@ height="1.3964840332458444in"}
 >
 > **⑤** **隐藏域**
 
-+-----------------------------------------------------------------------+
-| > \<input type= \"hidden \" name= \"tag \" value= \"100 \"\>          |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;input type= "hidden " name= "tag " value= "100 "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image101.jpeg){width="4.168525809273841e-2in"
-height="0.8545461504811899in"}
+<img src="media/image101.jpeg" style="height:0.85455in" />
 
 > 用户不可见的一个输入区域，作用是：
 > 提交表单的时候，携带一些固定的数据。 name 属性：指定数据的名称。
@@ -1429,13 +2150,21 @@ height="0.8545461504811899in"}
 >
 > **⑥** **提交按钮**
 
-+-----------------------------------------------------------------------+
-| > \<input type= \"submit \" value= \"点我提交表单 \"\>                |
-| > \<button\>点我提交表单\</button\>                                   |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;input type= "submit " value= "点我提交表单 "&gt;
+&lt;button&gt;点我提交表单&lt;/button&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image102.jpeg){width="4.168525809273841e-2in"
-height="1.1880424321959755in"}
+<img src="media/image102.jpeg" style="height:1.18804in" />
 
 > 注意：
 >
@@ -1447,13 +2176,21 @@ height="1.1880424321959755in"}
 >
 > **⑦** **重置按钮**
 
-+-----------------------------------------------------------------------+
-| > \<input type= \" reset \" value= \"点我重置 \"\> \<button type= \"  |
-| > reset\"\>点我重置\</button\>                                        |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;input type= " reset " value= "点我重置 "&gt; &lt;button type= "
+reset"&gt;点我重置&lt;/button&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image103.jpeg){width="4.168525809273841e-2in"
-height="0.9587937445319336in"}
+<img src="media/image103.jpeg" style="height:0.95879in" />
 
 > 注意点：
 >
@@ -1463,24 +2200,41 @@ height="0.9587937445319336in"}
 >
 > **⑧** **普通按钮**
 
-+-----------------------------------------------------------------------+
-| > \<input type= \"button \" value= \"普通按钮 \"\> \<button type=     |
-| > \"button\"\>普通按钮\</button\>                                     |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;input type= "button " value= "普通按钮 "&gt; &lt;button type=
+"button"&gt;普通按钮&lt;/button&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image104.jpeg){width="4.168525809273841e-2in"
-height="0.42727252843394575in"} 注意点：普通按钮的 type 值为 button
-，若不写 type 值是 submit 会引起表单的提交。
+<img src="media/image104.jpeg" style="height:0.42727in" />
+注意点：普通按钮的 type 值为 button ，若不写 type 值是 submit
+会引起表单的提交。
 
 > **⑨文本域**
 
-+-----------------------------------------------------------------------+
-| > \<textarea name= \"msg \" rows= \"22 \" cols= \"3                   |
-| > \"\>我是文本域\</textarea\>                                         |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;textarea name= "msg " rows= "22 " cols= "3
+"&gt;我是文本域&lt;/textarea&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image105.jpeg){width="4.168525809273841e-2in"
-height="1.1776257655293088in"}
+<img src="media/image105.jpeg" style="height:1.17763in" />
 
 > 常用属性如下：
 >
@@ -1492,24 +2246,63 @@ height="1.1776257655293088in"}
 >
 > **⑩** **下拉框**
 
-+--------------------------------------------------------------------------+
-| > \<select name= \"from \"\>                                             |
-|                                                                          |
-| +-----------------+----------------------------------------------------+ |
-| | > \<option      | > value= \"黑 \"\>黑龙江\</option\>                | |
-| +-----------------+----------------------------------------------------+ |
-| | > \<option      | > value= \"辽 \"\>辽宁\</option\>                  | |
-| +-----------------+----------------------------------------------------+ |
-| | > \<option      | > value= \"吉 \"\>吉林\</option\>                  | |
-| +-----------------+----------------------------------------------------+ |
-| | > \<option      | value= \"粤 \" selected\>广东\</option\>           | |
-| +-----------------+----------------------------------------------------+ |
-| | \< /select\>    |                                                    | |
-| +-----------------+----------------------------------------------------+ |
-+--------------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;select name= "from "&gt;</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 74%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;option</p>
+</blockquote></td>
+<td><blockquote>
+<p>value= "黑 "&gt;黑龙江&lt;/option&gt;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>&lt;option</p>
+</blockquote></td>
+<td><blockquote>
+<p>value= "辽 "&gt;辽宁&lt;/option&gt;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>&lt;option</p>
+</blockquote></td>
+<td><blockquote>
+<p>value= "吉 "&gt;吉林&lt;/option&gt;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>&lt;option</p>
+</blockquote></td>
+<td style="text-align: right;">value= "粤 "
+selected&gt;广东&lt;/option&gt;</td>
+</tr>
+<tr>
+<td>&lt; /select&gt;</td>
+<td></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image106.jpeg){width="4.168525809273841e-2in"
-height="1.4069006999125109in"}
+<img src="media/image106.jpeg" style="height:1.4069in" />
 
 > 常用属性及注意事项：
 >
@@ -1541,135 +2334,209 @@ fieldset 可以为表单控件分组、 legend 标签是分组的标题。
 
 > 示例：
 
-+-----------------------------------------------------------------------+
-| > \<fieldset\>                                                        |
-| >                                                                     |
-| > \<legend\>主要信息\</legend\>                                       |
-| >                                                                     |
-| > \<label for= \"zhanghu \"\>账户： \< /label\>                       |
-| >                                                                     |
-| > \<input id= \"zhanghu \" type= \"text \" name= \"account \"         |
-| > maxlength= \"10\"\>\<br\> \<label\>                                 |
-| >                                                                     |
-| > 密码：                                                              |
-| >                                                                     |
-| > \<input id= \"mima \" type= \"password \" name= \"pwd \" maxlength= |
-| > \"6 \"\> \< /label\>                                                |
-| >                                                                     |
-| > \<br\>                                                              |
-| >                                                                     |
-| > 性别：                                                              |
-| >                                                                     |
-| > \<input type= \" radio \" name= \"gender \" value= \"male \" id=    |
-| > \"nan \"\>                                                          |
-| >                                                                     |
-| > \<label for= \"nan \"\>男\</label\>                                 |
-| >                                                                     |
-| > \<label\>                                                           |
-| >                                                                     |
-| > \<input type= \" radio \" name= \"gender \" value= \"female \" id=  |
-| > \"nv \"\>女                                                         |
-| >                                                                     |
-| > \< /label\> \< /fieldset\>                                          |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;fieldset&gt;</p>
+<p>&lt;legend&gt;主要信息&lt;/legend&gt;</p>
+<p>&lt;label for= "zhanghu "&gt;账户： &lt; /label&gt;</p>
+<p>&lt;input id= "zhanghu " type= "text " name= "account " maxlength=
+"10"&gt;&lt;br&gt; &lt;label&gt;</p>
+<p>密码：</p>
+<p>&lt;input id= "mima " type= "password " name= "pwd " maxlength= "6
+"&gt; &lt; /label&gt;</p>
+<p>&lt;br&gt;</p>
+<p>性别：</p>
+<p>&lt;input type= " radio " name= "gender " value= "male " id= "nan
+"&gt;</p>
+<p>&lt;label for= "nan "&gt;男&lt;/label&gt;</p>
+<p>&lt;label&gt;</p>
+<p>&lt;input type= " radio " name= "gender " value= "female " id= "nv
+"&gt;女</p>
+<p>&lt; /label&gt; &lt; /fieldset&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > **6.** **表单总结**
 
-+--------------+----------+------------------------------------------------------+
-| > **标签名** | > **标** | > **常用属性**                                       |
-|              | > **签** |                                                      |
-|              | > **语** |                                                      |
-|              | > **义** |                                                      |
-+--------------+----------+------------------------------------------------------+
-|              | > 表 单  | > action 属性： 表单要提交的地址。                   |
-|              |          | >                                                    |
-|              |          | > target 属性： 要跳转的新地址打开位置; 值: \_self   |
-|              |          | > 、 \_blank                                         |
-|              |          | >                                                    |
-|              |          | > method 属性： 请求方式，值： get 、 post           |
-+--------------+----------+------------------------------------------------------+
-|              | > 多 种  | > type 属性： 指定表单控件的类型。                   |
-|              | > 形 式  | >                                                    |
-|              | > 的 表  | > 值： text 、 password 、 radio 、 checkbox 、      |
-|              | > 单 控  | > hidden 、 submit 、 res button 等。                |
-|              | > 件     | >                                                    |
-|              |          | > name 属性： 指定数据名称 value 属性：              |
-|              |          | >                                                    |
-|              |          | > 对于输入框：指定默认输入的值；                     |
-|              |          | >                                                    |
-|              |          | > 对于单选和复选框：实际提交的数据；                 |
-|              |          | >                                                    |
-|              |          | > 对于按钮：显示按钮文字。                           |
-|              |          | >                                                    |
-|              |          | > disabled 属性： 设置表单控件不可用。               |
-|              |          | >                                                    |
-|              |          | > maxlength 属性： 用于输入框，设置最大可输入长度。  |
-|              |          | >                                                    |
-|              |          | > checked 属性： 用于单选按钮和复选框，默认选中      |
-+--------------+----------+------------------------------------------------------+
-|              | > 文 本  | > name 属性： 指定数据名称                           |
-|              | > 域     | >                                                    |
-|              |          | > rows 属性： 指定默认显示的行数，影响文本域的高度。 |
-|              |          | >                                                    |
-|              |          | > cols 属性： 指定默认显示的列数，影响文本域的宽度。 |
-|              |          | >                                                    |
-|              |          | > disabled 属性： 设置表单控件不可用。               |
-+--------------+----------+------------------------------------------------------+
-| > select     | > 下 拉  | > name 属性： 指定数据名称                           |
-|              | > 框     | >                                                    |
-|              |          | > disabled 属性： 设置整个下拉框不可用。             |
-+--------------+----------+------------------------------------------------------+
-| > option     | > 下 拉  | > disabled 属性： 设置拉下选项不可用。               |
-|              | > 框 的  | >                                                    |
-|              | > 选 项  | > value 属性： 该选项事件提交的数据                  |
-|              |          | >                                                    |
-|              |          | > （不指定value，会把标签中的内容作为提交数据）      |
-|              |          | > selected 属性： 默认选中。                         |
-+--------------+----------+------------------------------------------------------+
-| > button     | > 按 钮  | > disabled 属性： 设置按钮不可用。                   |
-|              |          | >                                                    |
-|              |          | > type 属性： 设置按钮的类型，值： submit （默认）、 |
-|              |          | > reset 、 button                                    |
-+--------------+----------+------------------------------------------------------+
-|              | > 与 表  | > for 属性： 值与要关联的表单控件的ID值相同。        |
-|              | > 单 控  |                                                      |
-|              | > 件 做  |                                                      |
-|              | > 关 联  |                                                      |
-+--------------+----------+------------------------------------------------------+
-| > fieldset   | > 表 单  |                                                      |
-|              | > 边 框  |                                                      |
-+--------------+----------+------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 6%" />
+<col style="width: 77%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>标签名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>标</strong> <strong>签</strong> <strong>语</strong>
+<strong>义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>常用属性</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>表 单</p>
+</blockquote></td>
+<td><blockquote>
+<p>action 属性： 表单要提交的地址。</p>
+<p>target 属性： 要跳转的新地址打开位置; 值: _self 、 _blank</p>
+<p>method 属性： 请求方式，值： get 、 post</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>多 种 形 式 的 表 单 控 件</p>
+</blockquote></td>
+<td><blockquote>
+<p>type 属性： 指定表单控件的类型。</p>
+<p>值： text 、 password 、 radio 、 checkbox 、 hidden 、 submit 、 res
+button 等。</p>
+<p>name 属性： 指定数据名称 value 属性：</p>
+<p>对于输入框：指定默认输入的值；</p>
+<p>对于单选和复选框：实际提交的数据；</p>
+<p>对于按钮：显示按钮文字。</p>
+<p>disabled 属性： 设置表单控件不可用。</p>
+<p>maxlength 属性： 用于输入框，设置最大可输入长度。</p>
+<p>checked 属性： 用于单选按钮和复选框，默认选中</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>文 本 域</p>
+</blockquote></td>
+<td><blockquote>
+<p>name 属性： 指定数据名称</p>
+<p>rows 属性： 指定默认显示的行数，影响文本域的高度。</p>
+<p>cols 属性： 指定默认显示的列数，影响文本域的宽度。</p>
+<p>disabled 属性： 设置表单控件不可用。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>select</p>
+</blockquote></td>
+<td><blockquote>
+<p>下 拉 框</p>
+</blockquote></td>
+<td><blockquote>
+<p>name 属性： 指定数据名称</p>
+<p>disabled 属性： 设置整个下拉框不可用。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>option</p>
+</blockquote></td>
+<td><blockquote>
+<p>下 拉 框 的 选 项</p>
+</blockquote></td>
+<td><blockquote>
+<p>disabled 属性： 设置拉下选项不可用。</p>
+<p>value 属性： 该选项事件提交的数据</p>
+<p>（不指定value，会把标签中的内容作为提交数据） selected 属性：
+默认选中。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>button</p>
+</blockquote></td>
+<td><blockquote>
+<p>按 钮</p>
+</blockquote></td>
+<td><blockquote>
+<p>disabled 属性： 设置按钮不可用。</p>
+<p>type 属性： 设置按钮的类型，值： submit （默认）、 reset 、
+button</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>与 表 单 控 件 做 关 联</p>
+</blockquote></td>
+<td><blockquote>
+<p>for 属性： 值与要关联的表单控件的ID值相同。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>fieldset</p>
+</blockquote></td>
+<td><blockquote>
+<p>表 单 边 框</p>
+</blockquote></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image109.jpeg){width="6.17995406824147in"
-height="0.11463910761154855in"}
+<img src="media/image109.jpeg"
+style="width:6.17995in;height:0.11464in" />
 
-![](./images/media/image110.png){width="6.17995406824147in"
-height="0.10421259842519685in"}
+<img src="media/image110.png"
+style="width:6.17995in;height:0.10421in" />
 
-> ![](./images/media/image111.png){width="6.17995406824147in"
-> height="1.0416666666666666e-2in"}**13.框架标签**
+> <img src="media/image111.png" style="width:6.17995in" />**13.框架标签**
 
-+--------------+--------------------------+------------------------------+------------+
-| > **标签名** | > **功能和语义**         | > **属性**                   | > **单**   |
-|              |                          |                              | > **/**    |
-|              |                          |                              | > **双标** |
-|              |                          |                              | >          |
-|              |                          |                              | > **签**   |
-+--------------+--------------------------+------------------------------+------------+
-| > iframe     | > 框架（在网页中嵌入其他 | > name ：框架名字，可以与    | > 双       |
-|              | > 文件）                 | > target 属 性配合。         |            |
-|              |                          | >                            |            |
-|              |                          | > width ： 框架的宽。        |            |
-|              |                          | >                            |            |
-|              |                          | > height ： 框架的高度。     |            |
-|              |                          | >                            |            |
-|              |                          | > frameborder                |            |
-|              |                          | > ：是否显示边框，值： 0     |            |
-|              |                          | > 或者1。                    |            |
-+--------------+--------------------------+------------------------------+------------+
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 30%" />
+<col style="width: 43%" />
+<col style="width: 13%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>标签名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>功能和语义</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>属性</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>单</strong> <strong>/</strong> <strong>双标</strong></p>
+<p><strong>签</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>iframe</p>
+</blockquote></td>
+<td><blockquote>
+<p>框架（在网页中嵌入其他 文件）</p>
+</blockquote></td>
+<td><blockquote>
+<p>name ：框架名字，可以与 target 属 性配合。</p>
+<p>width ： 框架的宽。</p>
+<p>height ： 框架的高度。</p>
+<p>frameborder ：是否显示边框，值： 0 或者1。</p>
+</blockquote></td>
+<td><blockquote>
+<p>双</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-![](./images/media/image112.jpeg){width="4.168525809273841e-2in"
-height="0.9587664041994751in"}
+<img src="media/image112.jpeg" style="height:0.95877in" />
 
 > iframe 标签的实际应用：
 >
@@ -1679,13 +2546,11 @@ height="0.9587664041994751in"}
 >
 > **14.HTML实体**
 
-![](./images/media/image113.png){width="6.17995406824147in"
-height="1.0416666666666666e-2in"}
+<img src="media/image113.png" style="width:6.17995in" />
 
-> ![](./images/media/image114.jpeg){width="4.168525809273841e-2in"
-> height="0.6461307961504812in"}在 HTML
+> <img src="media/image114.jpeg" style="height:0.64613in" />在 HTML
 > 中我们可以用一种**特殊的形式**的内容，来表示某个**符号**，这种特殊形式的内容，就是
-> HTML 实 体。比如小于号 \< 用于定义 HTML
+> HTML 实 体。比如小于号 &lt; 用于定义 HTML
 > 标签的开始。如果我们希望浏览器正确地显示这些字符，我们必须 在 HTML
 > 源码中插入字符实体。
 >
@@ -1694,168 +2559,544 @@ height="1.0416666666666666e-2in"}
 >
 > 常见字符实体总结：
 
-+----------+--------------------------+------------------+----------------+
-|          | > **描述**               | > **实体名称**   | > **实体编号** |
-+----------+--------------------------+------------------+----------------+
-|          | > **空格**               |                  | > **&#160;**   |
-+----------+--------------------------+------------------+----------------+
-| > **\<** | > **小于号**             |                  | > **&#60;**    |
-+----------+--------------------------+------------------+----------------+
-| > **\>** | > **大于号**             |                  | > **&#62;**    |
-+----------+--------------------------+------------------+----------------+
-| > **&**  | > **和号**               |                  | > **&#38;**    |
-+----------+--------------------------+------------------+----------------+
-| > \"     | > 引号                   | > &quot ;        | > &#34;        |
-+----------+--------------------------+------------------+----------------+
-| > ´      | > 反引号                 | > &acute ;       | > &#180;       |
-+----------+--------------------------+------------------+----------------+
-| > ￠     | > 分（ cent）            | > &cent ;        | > &#162;       |
-+----------+--------------------------+------------------+----------------+
-| > £      | > 镑（pound）            | > &pound ;       | > &#163;       |
-+----------+--------------------------+------------------+----------------+
-| > **¥**  | > **元（yen）**          |                  | > **&#165;**   |
-+----------+--------------------------+------------------+----------------+
-| > €      | > 欧元（ euro）          | > &euro ;        | > &#8364;      |
-+----------+--------------------------+------------------+----------------+
-| > **©**  | > **版权（copyright）**  |                  | > **&#169;**   |
-+----------+--------------------------+------------------+----------------+
-| > ®      | > 注册商标               | > &reg ;         | > &#174;       |
-+----------+--------------------------+------------------+----------------+
-| > ™      | > 商标                   | > &trade ;       | > &#8482;      |
-+----------+--------------------------+------------------+----------------+
-| > **×**  | > **乘号**               |                  | > **&#215;**   |
-+----------+--------------------------+------------------+----------------+
-| > **÷**  | > **除号**               |                  | > **&#247;**   |
-+----------+--------------------------+------------------+----------------+
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 38%" />
+<col style="width: 26%" />
+<col style="width: 23%" />
+</colgroup>
+<tbody>
+<tr>
+<td></td>
+<td><blockquote>
+<p><strong>描述</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>实体名称</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>实体编号</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p><strong>空格</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>&amp;#160;</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p><strong>&lt;</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>小于号</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>&amp;#60;</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p><strong>&gt;</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>大于号</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>&amp;#62;</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p><strong>&amp;</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>和号</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>&amp;#38;</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>"</p>
+</blockquote></td>
+<td><blockquote>
+<p>引号</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;quot ;</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;#34;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>´</p>
+</blockquote></td>
+<td><blockquote>
+<p>反引号</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;acute ;</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;#180;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>￠</p>
+</blockquote></td>
+<td><blockquote>
+<p>分（ cent）</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;cent ;</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;#162;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>£</p>
+</blockquote></td>
+<td><blockquote>
+<p>镑（pound）</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;pound ;</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;#163;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p><strong>¥</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>元（yen）</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>&amp;#165;</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>€</p>
+</blockquote></td>
+<td><blockquote>
+<p>欧元（ euro）</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;euro ;</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;#8364;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p><strong>©</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>版权（copyright）</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>&amp;#169;</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>®</p>
+</blockquote></td>
+<td><blockquote>
+<p>注册商标</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;reg ;</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;#174;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>™</p>
+</blockquote></td>
+<td><blockquote>
+<p>商标</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;trade ;</p>
+</blockquote></td>
+<td><blockquote>
+<p>&amp;#8482;</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p><strong>×</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>乘号</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>&amp;#215;</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p><strong>÷</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>除号</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>&amp;#247;</strong></p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 完整实体列表，请参考： [**HTML** **Standard**
 > **(whatwg.org)**](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references)
 >
 > **15.HTML全局属性**
 
-![](./images/media/image115.png){width="6.17995406824147in"
-height="1.0416666666666666e-2in"}
+<img src="media/image115.png" style="width:6.17995in" />
 
 > 常用的全局属性：
 
-+--------------+--------------------------------------------------------------+
-| > **属性名** | > **含义**                                                   |
-+--------------+--------------------------------------------------------------+
-|              | > 给标签指定唯一标识，注意： id 是不能重复的。               |
-|              | >                                                            |
-|              | > 作用：可以让 label 标签与表单控件相关联；也可以与 CSS 、   |
-|              | > JavaScript 配合使 用，。                                   |
-+--------------+--------------------------------------------------------------+
-| > class      | > 给标签指定类名，随后通过 CSS 就可以给标签设置样式。        |
-+--------------+--------------------------------------------------------------+
-| > style      | > 给标签设置 CSS 样式。                                      |
-+--------------+--------------------------------------------------------------+
-|              | > 内容的方向，值: ltr 、 rtl                                 |
-+--------------+--------------------------------------------------------------+
-| > title      | > 给标签设置一个文字提示， 一般超链接和图片用得比较多。      |
-+--------------+--------------------------------------------------------------+
-| > lang       | > 给标签指定语言，具体规范和可选值请参考【10. HTML           |
-|              | > 设置语言】。                                               |
-+--------------+--------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 87%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p><strong>属性名</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>含义</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>给标签指定唯一标识，注意： id 是不能重复的。</p>
+<p>作用：可以让 label 标签与表单控件相关联；也可以与 CSS 、 JavaScript
+配合使 用，。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>class</p>
+</blockquote></td>
+<td><blockquote>
+<p>给标签指定类名，随后通过 CSS 就可以给标签设置样式。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>style</p>
+</blockquote></td>
+<td><blockquote>
+<p>给标签设置 CSS 样式。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td></td>
+<td><blockquote>
+<p>内容的方向，值: ltr 、 rtl</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>title</p>
+</blockquote></td>
+<td><blockquote>
+<p>给标签设置一个文字提示， 一般超链接和图片用得比较多。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>lang</p>
+</blockquote></td>
+<td><blockquote>
+<p>给标签指定语言，具体规范和可选值请参考【10. HTML 设置语言】。</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 完整的全局属性，请参考： [**全局属性** **-**
-> **HTML（超文本标记语言）** **\|** **MDN**
+> **HTML（超文本标记语言）** **|** **MDN**
 > **(mozilla.org)**](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
 >
-> ![](./images/media/image116.png){width="6.17995406824147in"
-> height="1.0416666666666666e-2in"}**16.meta** **元信息**
+> <img src="media/image116.png" style="width:6.17995in" />**16.meta**
+> **元信息**
 >
 > 1\. 配置字符编码
 
-+-----------------------------------------------------------------------+
-| > \<meta charset= \"utf-8 \"\>                                        |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;meta charset= "utf-8 "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 2\. 针对 IE 浏览器的兼容性配置。
 
-+-----------------------------------------------------------------------+
-| > \<meta [http-equiv=](http-equiv=)\"X-UA-Compatible\"                |
-| > content=\"IE=edge\"\>                                               |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;meta <a href="http-equiv=">http-equiv=</a>"X-UA-Compatible"
+content="IE=edge"&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 3\. 针对移动端的配置（移动端课程中会详细讲解）
 
-+-----------------------------------------------------------------------+
-| > \<meta name= \"viewport \" content= \"width=device-width ,          |
-| > initial-scale=1 .0 \"\>                                             |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;meta name= "viewport " content= "width=device-width ,
+initial-scale=1 .0 "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 4\. 配置网页关键字
 
-+-----------------------------------------------------------------------+
-| > \<meta name= \"keywords \" content=                                 |
-| > \"8-12个以英文逗号隔开的单词/词语 \"\>                              |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;meta name= "keywords " content= "8-12个以英文逗号隔开的单词/词语
+"&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 5\. 配置网页描述信息
 
-+-----------------------------------------------------------------------+
-| > \<meta name= \"description \" content=                              |
-| > \"80字以内的一段话，与网站内容相关 \"\>                             |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;meta name= "description " content=
+"80字以内的一段话，与网站内容相关 "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 6\. 针对搜索引擎爬虫配置：
 
-+------------------------------------------------------------------------------------------+
-| +-----------------------------------------------------------------------+                |
-| | > \<meta name= \" robots \" content= \"此处可选值见下表 \"\>          |                |
-| +-----------------------------------------------------------------------+                |
-+---------------------------------------+--------------------------------------------------+
-| > **值**                              | > **描述**                                       |
-+---------------------------------------+--------------------------------------------------+
-| > index                               | > 允许搜索爬虫索引此页面。                       |
-+---------------------------------------+--------------------------------------------------+
-| > noindex                             | > 要求搜索爬虫不索引此页面。                     |
-+---------------------------------------+--------------------------------------------------+
-| > follow                              | > 允许搜索爬虫跟随此页面上的链接。               |
-+---------------------------------------+--------------------------------------------------+
-| > nofollow                            | > 要求搜索爬虫不跟随此页面上的链接。             |
-+---------------------------------------+--------------------------------------------------+
-| > all                                 | > 与 index , follow 等价                         |
-+---------------------------------------+--------------------------------------------------+
-| > none                                | > 与 noindex , nofollow 等价                     |
-+---------------------------------------+--------------------------------------------------+
-| > noarchive                           | > 要求搜索引擎不缓存页面内容。                   |
-+---------------------------------------+--------------------------------------------------+
-| > nocache                             | > noarchive 的替代名称。                         |
-+---------------------------------------+--------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 71%" />
+</colgroup>
+<tbody>
+<tr>
+<td colspan="2"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;meta name= " robots " content= "此处可选值见下表 "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td><blockquote>
+<p><strong>值</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>描述</strong></p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>index</p>
+</blockquote></td>
+<td><blockquote>
+<p>允许搜索爬虫索引此页面。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>noindex</p>
+</blockquote></td>
+<td><blockquote>
+<p>要求搜索爬虫不索引此页面。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>follow</p>
+</blockquote></td>
+<td><blockquote>
+<p>允许搜索爬虫跟随此页面上的链接。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>nofollow</p>
+</blockquote></td>
+<td><blockquote>
+<p>要求搜索爬虫不跟随此页面上的链接。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>all</p>
+</blockquote></td>
+<td><blockquote>
+<p>与 index , follow 等价</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>none</p>
+</blockquote></td>
+<td><blockquote>
+<p>与 noindex , nofollow 等价</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>noarchive</p>
+</blockquote></td>
+<td><blockquote>
+<p>要求搜索引擎不缓存页面内容。</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>nocache</p>
+</blockquote></td>
+<td><blockquote>
+<p>noarchive 的替代名称。</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 7\. 配置网页作者：
 
-+-----------------------------------------------------------------------+
-| > \<meta name= \"author \" content= \"tony \"\>                       |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;meta name= "author " content= "tony "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 8\. 配置网页生成工具
 
-+-----------------------------------------------------------------------+
-| > \<meta name= \"generator \" content= \"Visual Studio Code \"\>      |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;meta name= "generator " content= "Visual Studio Code "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > 9\. 配置定义网页版权信息：
 
-+-----------------------------------------------------------------------+
-| > \<meta name= \"copyright \" content= \"2023-2027©版权所有 \"\>      |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;meta name= "copyright " content= "2023-2027©版权所有 "&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-+-----------------------------------------------------------------------+
-| > \<meta [http-equiv=](http-equiv=)\"refresh\"                        |
-| > content=\"10;url=<http://www.baidu.com>\"\>                         |
-+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td><blockquote>
+<p>&lt;meta <a href="http-equiv=">http-equiv=</a>"refresh"
+content="10;url=<a
+href="http://www.baidu.com">http://www.baidu.com</a>"&gt;</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
-> 完整的网页元信息，请参考： [**文档级元数据元素** **\|**
+> 完整的网页元信息，请参考： [**文档级元数据元素** **|**
 > **MDN**](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta)
 >
-> ![](./images/media/image117.jpeg){width="6.17995406824147in"
-> height="1.0416666666666666e-2in"}**17.** **HTML总结**
+> <img src="media/image117.jpeg" style="width:6.17995in" />**17.**
+> **HTML总结**
 
-![](./images/media/image118.png){width="6.17995406824147in"
-height="10.90090769903762in"}
+<img src="media/image118.png"
+style="width:6.17995in;height:10.90091in" />
 
-![](./images/media/image119.png){width="6.17995406824147in"
-height="6.732281277340332in"}
+<img src="media/image119.png"
+style="width:6.17995in;height:6.73228in" />
