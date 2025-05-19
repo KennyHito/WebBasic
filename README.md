@@ -12,6 +12,11 @@ https://www.bilibili.com/video/BV1Zy4y1K7SH/?p=6&spm_id_from=pageDriver&vd_sourc
 4、React: [尚硅谷React教程（已加更新版内容，B站最火）](https://www.bilibili.com/video/BV1wy4y1D7JT/?spm_id_from=333.788.comment.all.click&vd_source=0aba82a4002c00e3a072b82df5f53868)
 
 
+```
+温馨提示: 此readme.md文件,是通过禹神课件PDF文件通过WPS转成word,再由word通过pandoc工具转成markdown格式,故存在错误，请见谅。具体内容可看课件文件夹里面的内容。
+```
+
+
 > **一、** **前序知识**
 >
 > **1.** **认识两位先驱**
