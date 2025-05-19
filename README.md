@@ -20,7 +20,7 @@ https://www.bilibili.com/video/BV1Zy4y1K7SH/?p=6&spm_id_from=pageDriver&vd_sourc
 >
 > **1.** **认识两位先驱**
 
-<img src="media/image1.jpeg" style="width:6.17995in" />
+<img src="./media/image1.jpeg" style="width:6.17995in" />
 
 <img src="media/image2.jpeg" style="width:6.07574in;height:4.0227in" />
 
