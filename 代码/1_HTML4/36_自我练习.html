@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
   <style>
-    caption{
+    caption {
       font-size: 20px;
       border: 2px solid black;
     }
   </style>
 </head>
+
 <body>
+  <!-- 表格 -->
   <table border="1" cellspacing="0" width="500" height="300">
     <caption>工作任务表</caption>
     <thead>
@@ -42,7 +45,70 @@
         <td colspan="3" align="right">总计：3</td>
       </tr>
     </tfoot>
-
   </table>
+  <!-- 在 JavaScript 里，HTML 的<input>元素的type属性有着诸多不同的值，这些值会使输入框呈现出不同的形态和功能。 -->
+
+  <!-- 1. **text**：用于创建单行文本输入框，这是最为常用的一种类型。 -->
+  <input type="text" placeholder="请输入您的姓名">
+  <br>
+  <!-- 2. **password**：此类型会将用户输入的内容显示为星号或者圆点，保障密码的安全性。 -->
+  <input type="password" placeholder="请输入密码">
+  <br>
+  <!-- 3. **number**：专门用于输入数字的输入框，会自带上下箭头来调节数值，还能对输入进行数字验证。 -->
+  <input type="number" min="1" max="100" value="25">
+  <br>
+  <!-- 4. **email**：用于输入电子邮件地址，浏览器会对输入的内容进行基本的邮箱格式验证。 -->
+  <input type="email" placeholder="请输入您的邮箱">
+  <br>
+  <!-- 5. **tel**：主要用于输入电话号码，但不会对输入格式进行强制验证。 -->
+  <input type="tel" placeholder="请输入您的电话号码">
+  <br>
+  <!-- 6. **url**：用于输入URL地址，浏览器会验证输入内容是否符合URL格式。 -->
+  <input type="url" placeholder="请输入网址">
+  <br>
+  <!-- 7. **date**：能弹出日期选择器，方便用户选择日期。 -->
+  <input type="date">
+  <br>
+  <!-- 8. **time**：会显示时间选择器，让用户选择具体的时间。 -->
+  <input type="time">
+  <br>
+  <!-- 9. **datetime-local**：用于选择日期和时间，同样会提供相应的选择器。 -->
+  <input type="datetime-local">
+  <br>
+  <!-- 10. **checkbox**：生成复选框，用户可以同时选择多个选项。 -->
+  <input type="checkbox" id="agree" checked>
+  <label for="agree">我同意相关条款</label>
+  <br>
+  <!-- 11. **radio**：创建单选按钮，用户只能从一组选项中选择一个。 -->
+  <input type="radio" id="male" name="gender" checked>
+  <label for="male">男</label>
+  <input type="radio" id="female" name="gender">
+  <label for="female">女</label>
+  <br>
+  <!-- 12. **submit**：生成提交按钮，点击后会将表单数据提交到服务器。 -->
+  <input type="submit" value="提交">
+  <br>
+  <!-- 13. **button**：创建普通按钮，需要配合JavaScript才能实现相应功能。 -->
+  <input type="button" value="点击按钮" onclick="alert('Hello World!')">
+  <br>
+  <!-- 14. **reset**：生成重置按钮，点击后会清空表单中的所有输入内容。 -->
+  <input type="reset" value="重置">
+  <br>
+  <!-- 15. **file**：用于文件上传，点击后会弹出文件选择对话框。 -->
+  <input type="file" accept="image/*">
+  <br>
+  <!-- 16. **color**：弹出颜色选择器，让用户选择颜色。 -->
+  <input type="color" value="#ff0000">
+  <br>
+  <!-- 17. **range**：创建滑动条，用户可以在一个范围内选择数值。 -->
+  <input type="range" min="0" max="100" value="50">
+  <br>
+  <!-- 18. **search**：用于搜索框，外观上可能会有一些特殊的样式。 -->
+  <input type="search" placeholder="搜索...">
+  <br>
+  <!-- 19. **hidden**：创建隐藏字段，用于存储一些不需要用户看到的数据。 -->
+  <input type="hidden" name="userId" value="123">
+
 </body>
+
 </html>
