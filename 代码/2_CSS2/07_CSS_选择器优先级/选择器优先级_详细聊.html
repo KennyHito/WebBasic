@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <title>选择器优先级_详细聊</title>
@@ -7,17 +8,21 @@
         #atguigu {
             color: orange;
         }
+
         .container span.slogan {
             color: red;
         }
+
         div>p>span:nth-child(1) {
             color: green;
         }
+
         .slogan {
             color: purple !important;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <p>
@@ -26,4 +31,5 @@
         </p>
     </div>
 </body>
+
 </html>
