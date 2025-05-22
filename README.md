@@ -16,9 +16,11 @@ https://www.bilibili.com/video/BV1Zy4y1K7SH/?p=6&spm_id_from=pageDriver&vd_sourc
 温馨提示: 此readme.md文件,是禹神所讲笔记中PDF文件通过WPS转成word文件,再由word通过pandoc工具转成markdown格式文件,故存在错误，请见谅。具体内容可看课件文件夹里面的内容。
 ```
 
-<iframe src="https://github.com/KennyHito/WebBasic/blob/main/%E7%AC%94%E8%AE%B0/HTML4%E7%AC%94%E8%AE%B0.pdf" style="width:600px; height:500px;" frameborder="0">
+<iframe src="https://github.com/KennyHito/WebBasic/blob/main/%E7%AC%94%E8%AE%B0/HTML4%E7%AC%94%E8%AE%B0.pdf"  width=600px height=500px frameborder="0">
     Loading PDF...
 </iframe>
+
+
 
 > **一、** **前序知识**
 >
